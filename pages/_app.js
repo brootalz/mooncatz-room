@@ -2,7 +2,7 @@ import '../styles/globals.css'
 // import '@aws-amplify/ui-react/styles.css';
 import { SessionProvider } from "next-auth/react";
 // import { Amplify } from "aws-amplify";
-import awsconfig from "../aws-exports";
+// import awsconfig from "../aws-exports";
 
 // Amplify.configure({...awsconfig,ssr:true});
 
