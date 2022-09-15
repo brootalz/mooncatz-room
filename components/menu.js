@@ -54,8 +54,8 @@ const Menu = () => {
       content = cat.name;
     }
     return  <li className={ isItem ? "menuItem btn isItem" : "menuItem btn" }
-              catid={ curMenuData.children.indexOf(cat) }
-              slotname={ cat.slot }
+              data-catid={ curMenuData.children.indexOf(cat) }
+              data-slotname={ cat.slot }
               onClick={
                 isItem ? handleItemClick : handleCatClick
             }>
@@ -70,12 +70,12 @@ const Menu = () => {
   }
 
   const handleCatClick = (e) => {
-    const clickedCat = e.currentTarget.getAttribute("catid");
+    const clickedCat = e.currentTarget.dataset.catid;
     setMenuCoords(menuCoords => [...menuCoords, clickedCat]);
   }
 
   const handleItemClick = (e) => {
-    curCatID = e.currentTarget.getAttribute("catid");
+    curCatID = e.currentTarget.dataset.catid;
     const itemData = getItemData(menuCoords, curCatID);
     console.log(curSlot + " / " + curCatID);
     console.log(e.target.dataset.assetnormal);
