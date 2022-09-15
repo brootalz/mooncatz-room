@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "mooncatzmarketplace",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 265,
+      "apiKeyExpirationDate": "2023-05-26T13:07:55.739Z",
+      "keyDescription": ""
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}
