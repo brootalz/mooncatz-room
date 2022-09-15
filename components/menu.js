@@ -43,7 +43,13 @@ const Menu = () => {
     let isItem = cat.name.includes(".png");
     let content;
     if (isItem) {
-      content = <img src={ cat.thumb } width="120" height="120" />;
+      content =
+        <img src={ cat.thumb }
+          data-assetnormal={ cat.path }
+          data-assetreverse={ cat.reverse }
+          width="120"
+          height="120"
+        />;
     } else {
       content = cat.name;
     }
@@ -72,19 +78,41 @@ const Menu = () => {
     curCatID = e.currentTarget.getAttribute("catid");
     const itemData = getItemData(menuCoords, curCatID);
     console.log(curSlot + " / " + curCatID);
+    console.log(e.target.dataset.assetnormal);
     document.getElementById(curSlot).src = itemData.path;
   }
 
   const handleRotateClick = (e) => {
-    console.log("rotate!:" + menuCoords);
     const itemData = getItemData(menuCoords, curCatID);
-    console.log(curSlot + " / " + curCatID);
-    console.log(itemData.reverse);
-    document.getElementById(curSlot).src = itemData.reverse;
+    console.log(curSlot);
+    switch (curSlot) {
+      case "bedBase":
+      case "bedFrame":
+      case "bedDesign":
+      case "bedPillow":
+      case "bedSheet":
+        flipBed(itemData);
+        break;
+      default:
+        console.log("no slot found");
+    }
   }
 
-  const flipBed = () => {
-    
+  const flipBed = (itemData) => {
+    console.log("flip bed!");
+    const base = document.getElementById("bedBase");
+    base.dataset.reversed = !base.dataset.reversed;
+    if (document.getElementById("bedBase").dataset.reversed) {
+      document.getElementById("bedFrame").src = document.getElementById("bedFrame").dataset.assetreverse;
+      document.getElementById("bedDesign").src = document.getElementById("bedDesign").dataset.assetreverse;
+      document.getElementById("bedPillow").src = document.getElementById("bedPillow").dataset.assetreverse;
+      document.getElementById("bedSheet").src = document.getElementById("bedSheet").dataset.assetreverse;
+    } else {
+      document.getElementById("bedFrame").src = document.getElementById("bedFrame").dataset.assetnormal;
+      document.getElementById("bedDesign").src = document.getElementById("bedDesign").dataset.assetnormal;
+      document.getElementById("bedPillow").src = document.getElementById("bedPillow").dataset.assetnormal;
+      document.getElementById("bedSheet").src = document.getElementById("bedSheet").dataset.assetnormal;
+    };
   }
 
   let curMenuData = genMenu();

@@ -31,7 +31,7 @@ const Room = () => {
 	      <div className="roomLayer" style={{zIndex: 109}}>
 					<img alt="" src="/images/roomAssets/blank.png" id="windowCurtains" />
 	      </div>
-	      <div className="roomLayer" id="baseBed" style={{zIndex: 110}}>
+	      <div className="roomLayer" data-reversed="false" id="bedBase" style={{zIndex: 110}}>
 		      <div className="roomSubLayer" style={{zIndex: 111}}>
 		      	<img alt="" src="/images/roomAssets/Base Bed.png" id="bedFrame" />
 		      </div>
