@@ -44,7 +44,8 @@ const Menu = () => {
     let content;
     if (isItem) {
       content =
-        <img src={ cat.thumb }
+        <img alt=""
+          src={ cat.thumb }
           data-assetnormal={ cat.path }
           data-assetreverse={ cat.reverse }
           width="120"
@@ -77,9 +78,11 @@ const Menu = () => {
   const handleItemClick = (e) => {
     curCatID = e.currentTarget.dataset.catid;
     const itemData = getItemData(menuCoords, curCatID);
-    console.log(curSlot + " / " + curCatID);
-    console.log(e.target.dataset.assetnormal);
-    document.getElementById(curSlot).src = itemData.path;
+    let layer = document.getElementById(curSlot);
+    console.log("isreversed? -> " + layer.dataset.isreversed);
+    layer.src = layer.dataset.isreversed == "true" ? itemData.reverse : itemData.path;
+    layer.dataset.assetnormal = itemData.path;
+    layer.dataset.assetreverse = itemData.reverse;
   }
 
   const handleRotateClick = (e) => {
@@ -93,6 +96,11 @@ const Menu = () => {
       case "bedSheet":
         flipBed(itemData);
         break;
+      case "deskBase":
+      case "deskType":
+      case "deskChair":
+      case "deskMirror":
+      case "deskItem":
       default:
         console.log("no slot found");
     }
@@ -100,14 +108,16 @@ const Menu = () => {
 
   const flipBed = (itemData) => {
     console.log("flip bed!");
+    console.log(itemData);
     const base = document.getElementById("bedBase");
-    base.dataset.reversed = !base.dataset.reversed;
-    if (document.getElementById("bedBase").dataset.reversed) {
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
       document.getElementById("bedFrame").src = document.getElementById("bedFrame").dataset.assetreverse;
       document.getElementById("bedDesign").src = document.getElementById("bedDesign").dataset.assetreverse;
       document.getElementById("bedPillow").src = document.getElementById("bedPillow").dataset.assetreverse;
       document.getElementById("bedSheet").src = document.getElementById("bedSheet").dataset.assetreverse;
     } else {
+      base.dataset.isreversed = "false";
       document.getElementById("bedFrame").src = document.getElementById("bedFrame").dataset.assetnormal;
       document.getElementById("bedDesign").src = document.getElementById("bedDesign").dataset.assetnormal;
       document.getElementById("bedPillow").src = document.getElementById("bedPillow").dataset.assetnormal;

@@ -14,11 +14,6 @@
 				"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B1.png",
 				"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A1 thumb.png"
 			}, {
-				"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A2.png",
-				"name": "Picture Frame Side A2.png",
-				"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B2.png",
-				"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A2 thumb.png"
-			}, {
 				"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A3.png",
 				"name": "Picture Frame Side A3.png",
 				"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B3.png",
@@ -89,51 +84,6 @@
 		"path": "/images/roomAssets/Bed",
 		"name": "Bed",
 		"children": [{
-			"path": "/images/roomAssets/Bed/Design",
-			"name": "Design",
-			"slot": "bedDesign",
-			"children": [{
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A1.png",
-				"name": "Bed Frame Design Side A1.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B1.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A1 thumb.png"
-			}, {
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A2.png",
-				"name": "Bed Frame Design Side A2.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B2.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A2 thumb.png"
-			}, {
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A3.png",
-				"name": "Bed Frame Design Side A3.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B3.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A3 thumb.png"
-			}, {
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A4.png",
-				"name": "Bed Frame Design Side A4.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B4.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A4 thumb.png"
-			}, {
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A5.png",
-				"name": "Bed Frame Design Side A5.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B5.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A5 thumb.png"
-			}, {
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A6.png",
-				"name": "Bed Frame Design Side A6.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B6.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A6 thumb.png"
-			}, {
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A7.png",
-				"name": "Bed Frame Design Side A7.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B7.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A7 thumb.png"
-			}, {
-				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A8.png",
-				"name": "Bed Frame Design Side A8.png",
-				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B8.png",
-				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A8 thumb.png"
-			}]
-		}, {
 			"path": "/images/roomAssets/Bed/Frame",
 			"name": "Frame",
 			"slot": "bedFrame",
@@ -172,11 +122,46 @@
 				"name": "Bed Frame Side A7.png",
 				"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B7.png",
 				"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A7 thumb.png"
+			}]
+		}, {
+			"path": "/images/roomAssets/Bed/Design",
+			"name": "Design",
+			"slot": "bedDesign",
+			"children": [{
+				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A1.png",
+				"name": "Bed Frame Design Side A1.png",
+				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B1.png",
+				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A1 thumb.png"
 			}, {
-				"path": "/images/roomAssets/Bed/Frame/Bed-Frame-Side-A6.png",
-				"name": "Bed-Frame-Side-A6.png",
-				"reverse": "/images/roomAssets/Bed/Frame/Bed-Frame-Side-A6.png",
-				"thumb": "/images/roomAssets/Bed/Frame/Bed-Frame-Side-A6 thumb.png"
+				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A3.png",
+				"name": "Bed Frame Design Side A3.png",
+				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B3.png",
+				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A3 thumb.png"
+			}, {
+				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A4.png",
+				"name": "Bed Frame Design Side A4.png",
+				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B4.png",
+				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A4 thumb.png"
+			}, {
+				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A5.png",
+				"name": "Bed Frame Design Side A5.png",
+				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B5.png",
+				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A5 thumb.png"
+			}, {
+				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A6.png",
+				"name": "Bed Frame Design Side A6.png",
+				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B6.png",
+				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A6 thumb.png"
+			}, {
+				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A7.png",
+				"name": "Bed Frame Design Side A7.png",
+				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B7.png",
+				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A7 thumb.png"
+			}, {
+				"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A8.png",
+				"name": "Bed Frame Design Side A8.png",
+				"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B8.png",
+				"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A8 thumb.png"
 			}]
 		}, {
 			"path": "/images/roomAssets/Bed/Pillow",
@@ -306,131 +291,9 @@
 		"path": "/images/roomAssets/Desk",
 		"name": "Desk",
 		"children": [{
-			"path": "/images/roomAssets/Desk/Chair",
-			"name": "Chair",
-			"slot": "chair",
-			"children": [{
-				"path": "/images/roomAssets/Desk/Chair/Chair 1",
-				"name": "Chair 1",
-				"children": [{
-					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A1.png",
-					"name": "Chair 1 Side A1.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B1.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A1 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A2.png",
-					"name": "Chair 1 Side A2.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B2.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A2 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A3.png",
-					"name": "Chair 1 Side A3.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B3.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A3 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A4.png",
-					"name": "Chair 1 Side A4.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B4.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A4 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A5.png",
-					"name": "Chair 1 Side A5.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B5.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A5 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A6.png",
-					"name": "Chair 1 Side A6.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B6.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A6 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A7.png",
-					"name": "Chair 1 Side A7.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B7.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A7 thumb.png"
-				}]
-			}, {
-				"path": "/images/roomAssets/Desk/Chair/Chair 2",
-				"name": "Chair 2",
-				"children": [{
-					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A1.png",
-					"name": "Chair 2 Side A1.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B1.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A1 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A2.png",
-					"name": "Chair 2 Side A2.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B2.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A2 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A3.png",
-					"name": "Chair 2 Side A3.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B3.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A3 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A4.png",
-					"name": "Chair 2 Side A4.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B4.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A4 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A5.png",
-					"name": "Chair 2 Side A5.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B5.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A5 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A6.png",
-					"name": "Chair 2 Side A6.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B6.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A6 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A7.png",
-					"name": "Chair 2 Side A7.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B7.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A7 thumb.png"
-				}]
-			}, {
-				"path": "/images/roomAssets/Desk/Chair/Chair 3",
-				"name": "Chair 3",
-				"children": [{
-					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A1.png",
-					"name": "Chair 3 Side A1.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B1.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A1 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A2.png",
-					"name": "Chair 3 Side A2.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B2.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A2 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A3.png",
-					"name": "Chair 3 Side A3.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B3.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A3 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A4.png",
-					"name": "Chair 3 Side A4.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B4.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A4 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A5.png",
-					"name": "Chair 3 Side A5.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B5.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A5 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A6.png",
-					"name": "Chair 3 Side A6.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B6.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A6 thumb.png"
-				}, {
-					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A7.png",
-					"name": "Chair 3 Side A7.png",
-					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B7.png",
-					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A7 thumb.png"
-				}]
-			}]
-		}, {
 			"path": "/images/roomAssets/Desk/Desk",
 			"name": "Desk",
-			"slot": "desk",
+			"slot": "deskType",
 			"children": [{
 				"path": "/images/roomAssets/Desk/Desk/Desk 1",
 				"name": "Desk 1",
@@ -547,6 +410,128 @@
 					"name": "Table 3 Side A7.png",
 					"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B7.png",
 					"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A7 thumb.png"
+				}]
+			}]
+		}, {
+			"path": "/images/roomAssets/Desk/Chair",
+			"name": "Chair",
+			"slot": "deskChair",
+			"children": [{
+				"path": "/images/roomAssets/Desk/Chair/Chair 1",
+				"name": "Chair 1",
+				"children": [{
+					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A1.png",
+					"name": "Chair 1 Side A1.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B1.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A1 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A2.png",
+					"name": "Chair 1 Side A2.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B2.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A2 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A3.png",
+					"name": "Chair 1 Side A3.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B3.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A3 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A4.png",
+					"name": "Chair 1 Side A4.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B4.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A4 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A5.png",
+					"name": "Chair 1 Side A5.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B5.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A5 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A6.png",
+					"name": "Chair 1 Side A6.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B6.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A6 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A7.png",
+					"name": "Chair 1 Side A7.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B7.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A7 thumb.png"
+				}]
+			}, {
+				"path": "/images/roomAssets/Desk/Chair/Chair 2",
+				"name": "Chair 2",
+				"children": [{
+					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A1.png",
+					"name": "Chair 2 Side A1.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B1.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A1 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A2.png",
+					"name": "Chair 2 Side A2.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B2.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A2 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A3.png",
+					"name": "Chair 2 Side A3.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B3.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A3 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A4.png",
+					"name": "Chair 2 Side A4.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B4.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A4 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A5.png",
+					"name": "Chair 2 Side A5.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B5.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A5 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A6.png",
+					"name": "Chair 2 Side A6.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B6.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A6 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A7.png",
+					"name": "Chair 2 Side A7.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B7.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A7 thumb.png"
+				}]
+			}, {
+				"path": "/images/roomAssets/Desk/Chair/Chair 3",
+				"name": "Chair 3",
+				"children": [{
+					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A1.png",
+					"name": "Chair 3 Side A1.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B1.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A1 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A2.png",
+					"name": "Chair 3 Side A2.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B2.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A2 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A3.png",
+					"name": "Chair 3 Side A3.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B3.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A3 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A4.png",
+					"name": "Chair 3 Side A4.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B4.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A4 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A5.png",
+					"name": "Chair 3 Side A5.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B5.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A5 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A6.png",
+					"name": "Chair 3 Side A6.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B6.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A6 thumb.png"
+				}, {
+					"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A7.png",
+					"name": "Chair 3 Side A7.png",
+					"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B7.png",
+					"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A7 thumb.png"
 				}]
 			}]
 		}, {
