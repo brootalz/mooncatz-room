@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import RoomAssets from "../pages/api/roomAssetsFullScrubbed.json";
+import RoomAssets from "../pages/api/roomAssets.json";
 
 const Menu = () => {
   // TODO: Hook up tooltip for button hovers
