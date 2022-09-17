@@ -98,7 +98,7 @@ function useUser() {
     try {
       if (session) {
         if (user) {
-          const nfts = await getNFTS('0x73e4A0e0F785278De16811089217207d37b78b71');
+          const nfts = await getNFTS(user.wallet);
 
           if (nfts.length === 0) {
             throw new Error('User does not own any/are listed nfts');
@@ -147,7 +147,6 @@ function useUser() {
   }, [session]);
 
   useEffect(() => {
-    console.log(session);
     const controller = new AbortController();
     saveUser();
     return () => {
