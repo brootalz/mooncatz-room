@@ -20,22 +20,21 @@ const Index = () => {
 
   const connectWallet = async () => {
     try {
-      // const { ethereum } = window;
-      //
-      // if (!ethereum) {
-      //   console.log("Metamask not detected");
-      //   return;
-      // }
-      //
-      // const accounts = await ethereum.request({
-      //   method: "eth_requestAccounts",
-      // });
-      //
-      // setClient({
-      //   isConnected: true,
-      //   address: accounts[0],
-      // });
-      logIn('0x73e4A0e0F785278De16811089217207d37b78b71')
+      const { ethereum } = window;
+
+      if (!ethereum) {
+        console.log("Metamask not detected");
+        return;
+      }
+
+      const accounts = await ethereum.request({
+        method: "eth_requestAccounts",
+      });
+
+      setClient({
+        isConnected: true,
+        address: accounts[0],
+      });
     } catch (error) {
       console.log("Error connecting to metamask", error);
     }
