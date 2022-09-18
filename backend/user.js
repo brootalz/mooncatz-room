@@ -1,12 +1,12 @@
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import { API } from "aws-amplify";
-import {signIn, signOut, useSession} from 'next-auth/react';
+import { signOut, useSession } from 'next-auth/react';
 import { getNFTS, updateNFTs } from "./nfts";
 import { createUser as createUserMutation, updateUser } from "../src/graphql/mutations";
-import { getWalletByDiscordId } from "../src/graphql/queries";
+import { getWalletByWalletAddress } from "../src/graphql/queries";
 import { v4 } from "uuid";
 import moment from "moment/moment";
-import { HOLDER_ROLE, PRICE_PER_TOKEN } from "../shared/contants";
+import { PRICE_PER_TOKEN } from "../shared/contants";
 
 function useUser() {
   const {data: session} = useSession();
@@ -33,22 +33,6 @@ function useUser() {
         }
       });
       return data ? data.updateUser : null;
-    } catch (e) {
-      throw new Error(e.message);
-    }
-  }
-
-  async function getWalletByDiscordID(discordId) {
-    try {
-      const { data, error, extensions } = await API.graphql({
-        authMode: 'API_KEY',
-        query: getWalletByDiscordId,
-        variables: {
-          discordId,
-        }
-      });
-
-      return data.getWalletByDiscordId.items.length > 0 ? data.getWalletByDiscordId.items[0] : null;
     } catch (e) {
       throw new Error(e.message);
     }
@@ -81,91 +65,88 @@ function useUser() {
     }
   }
 
-  const saveUser = useCallback(async () => {
-    if (localStorage.getItem('user')) {
-      return;
-    }
-
-    const localUser = JSON.parse(localStorage.getItem('user') ?? '{"id": null}');
-    const user = await getWalletByDiscordID(session.discordUserDetails?.id ?? localUser.discordId);
-
-    const roles = session.roles ?? [];
-
-    if (!roles.includes(HOLDER_ROLE)) {
-      throw new Error('User is not part of server or does not have holder role');
-    }
-
+  async function getUserByWallet(wallet) {
     try {
-      if (session) {
-        if (user) {
-          const nfts = await getNFTS(user.wallet);
+      const { data, error, extensions } = await API.graphql({
+        authMode: 'API_KEY',
+        query: getWalletByWalletAddress,
+        variables: {
+          wallet,
+        }
+      });
 
-          if (nfts.length === 0) {
-            throw new Error('User does not own any/are listed nfts');
-          }
+      return data.getWalletByWalletAddress.items.length > 0 ? data.getWalletByWalletAddress.items[0] : null;
+    } catch (e) {
+      throw new Error(e.message);
+    }
+  }
 
-          const updatedUser = await updateNFTs({
-            id: user.id,
-            nfts: nfts.map((n) => ({
-              contract: n.contract.address,
-              tokenId: n.tokenId,
-            })),
-            _version: user._version,
-          });
+  const saveUser = async (wallet) => {
+    try {
+      const { data, error, extensions } = await API.graphql({
+        authMode: 'API_KEY',
+        query: getWalletByWalletAddress,
+        variables: {
+          wallet,
+        }
+      });
 
-          if (updatedUser) {
-            localStorage.setItem('user', JSON.stringify(updatedUser));
-            setUser(updatedUser ?? null);
-          }
-        } else {
-          const wallet = localStorage.getItem('wallet');
-          const nfts = await getNFTS(wallet ?? '');
+      const user = data.getWalletByWalletAddress.items.length > 0 ? data.getWalletByWalletAddress.items[0] : null;
 
-          const newUser = await createUser({
-            wallet: wallet ?? '',
-            discordId: session.discordUserDetails.id,
-            image: session.user.image,
-            username: session.discordUserDetails.username,
-            discriminator: session.discordUserDetails.discriminator,
-            nfts: nfts.map((n) => ({
-              contract: n.contract.address,
-              tokenId: n.tokenId,
-            })),
-            tokens: 0,
-            redeemDate: moment.utc().add('1', 'week').toISOString(),
-          });
+      if (user) {
+        const nfts = await getNFTS(user.wallet);
 
-          if (newUser) {
-            localStorage.setItem('user', JSON.stringify(newUser));
-            setUser(newUser ?? null);
-          }
+        if (nfts.length === 0) {
+          throw new Error('User does not own any/are listed nfts');
+        }
+
+        const updatedUser = await updateNFTs({
+          id: user.id,
+          nfts: nfts.map((n) => ({
+            contract: n.contract.address,
+            tokenId: n.tokenId,
+          })),
+          _version: user._version,
+        });
+
+        if (updatedUser) {
+          localStorage.setItem('user', JSON.stringify(updatedUser));
+          setUser(updatedUser ?? null);
+        }
+      } else {
+        const nfts = await getNFTS(wallet ?? '');
+
+        const newUser = await createUser({
+          wallet: wallet ?? '',
+          nfts: nfts.map((n) => ({
+            contract: n.contract.address,
+            tokenId: n.tokenId,
+          })),
+          tokens: 0,
+          redeemDate: moment.utc().add('1', 'week').toISOString(),
+        });
+
+        if (newUser) {
+          localStorage.setItem('user', JSON.stringify(newUser));
+          setUser(newUser ?? null);
         }
       }
     } catch (e) {
       throw new Error(e.message);
     }
-  }, [session]);
-
-  useEffect(() => {
-    const controller = new AbortController();
-    saveUser();
-    return () => {
-      controller.abort();
-    }
-  }, [saveUser]);
+  };
 
   async function logIn(wallet) {
     if (!wallet) {
       throw new Error('Wallet address required');
     }
     localStorage.setItem('wallet', wallet);
-    await signIn('discord');
+    await saveUser(wallet);
   }
 
   async function logOut() {
     localStorage.removeItem('user');
     localStorage.removeItem('wallet');
-    await signOut();
   }
 
   async function claimTokens() {
@@ -176,6 +157,7 @@ function useUser() {
     }
 
     try {
+      const user = localStorage.getItem('user');
       const nfts = user.nfts.length ?? 1;
       const claimableTokens = nfts * PRICE_PER_TOKEN;
 
@@ -192,7 +174,7 @@ function useUser() {
       });
 
       if (data.updateUser) {
-        getWalletByDiscordID(user.discordId);
+        getUserByWallet(user.wallet);
       }
     } catch (e) {
       throw new Error(e.message);
@@ -201,6 +183,7 @@ function useUser() {
 
   async function updateUserNFTs() {
     try {
+      const user = localStorage.getItem('user');
       const nfts = await getNFTS(user.wallet);
       const updatedUser = await updateNFTs({
         id: user.id,
@@ -212,7 +195,7 @@ function useUser() {
       });
 
       if (updatedUser) {
-        getWalletByDiscordID(user.discordId);
+        getUserByWallet(user.wallet);
       }
     } catch (e) {
       throw new Error(e.message);

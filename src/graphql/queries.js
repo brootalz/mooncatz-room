@@ -78,7 +78,6 @@ export const getItem = /* GraphQL */ `
       description
       traits
       quantity
-      slots
       users {
         items {
           id
@@ -107,7 +106,6 @@ export const listItems = /* GraphQL */ `
         price
         description
         traits
-        slots
         quantity
         createdAt
         updatedAt
@@ -143,7 +141,6 @@ export const getUserItem = /* GraphQL */ `
         discriminator
         ethMintingWallet
         solMintingWallet
-        itemsStarred
         nfts {
           contract
           tokenId
@@ -198,7 +195,6 @@ export const listUserItems = /* GraphQL */ `
           solMintingWallet
           createdAt
           updatedAt
-          itemsStarred
         }
         item {
           id
@@ -242,7 +238,6 @@ export const getWalletByWalletAddress = /* GraphQL */ `
         image
         username
         discriminator
-        itemsStarred
         ethMintingWallet
         solMintingWallet
         nfts {
@@ -259,7 +254,6 @@ export const getWalletByWalletAddress = /* GraphQL */ `
                     price
                     quantity
                     traits
-                    slots
                 }
             }
         }
@@ -297,7 +291,6 @@ export const getWalletByDiscordId = /* GraphQL */ `
         discriminator
         ethMintingWallet
         solMintingWallet
-        itemsStarred
         nfts {
           contract
           tokenId
@@ -312,7 +305,6 @@ export const getWalletByDiscordId = /* GraphQL */ `
                     price
                     quantity
                     traits
-                    slots
                 }
             }
         }
