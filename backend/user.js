@@ -12,7 +12,7 @@ function useUser() {
   const {data: session} = useSession();
   const [user, setUser] = useState();
 
-  async function startItem(itemId, user) {
+  async function starItem(itemId, user) {
     if (user.itemsStarred.includes(itemId)) {
       throw new Error('Item already starred');
     }
@@ -219,7 +219,7 @@ function useUser() {
     }
   }
 
-  return [user, session, logIn, logOut, claimTokens, updateUserNFTs, startItem];
+  return [user, session, logIn, logOut, claimTokens, updateUserNFTs, starItem];
 }
 
 export default useUser;

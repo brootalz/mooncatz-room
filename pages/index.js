@@ -5,9 +5,14 @@ import Room from "../components/room";
 import Menu from "../components/menu";
 import Tooltip from "../components/tooltip";
 import Metamask from "../components/metamask";
+import useUser from "../backend/user";
+import useItem from "../backend/item";
 
 const Index = () => {
   const [haveMetamask, setHaveMetamask] = useState(true);
+
+  // const [user, session, logIn, logOut, claimTokens, updateUserNFTs, starItem] = useUser();
+  const [items, createItem, updateItem, buyItem] = useItem();
 
   const [client, setClient] = useState({
     isConnected: false,
