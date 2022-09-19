@@ -48,6 +48,7 @@ hr {
 
 main {
   height: 100%;
+  padding-top: 100px;
 }
 
 .d-flex {
@@ -56,11 +57,10 @@ main {
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   left: 50%;
   -webkit-transform: translate(-50%);
   transform: translate(-50%);
-  height: 42px;
 }
 
 .logo img {
@@ -68,10 +68,12 @@ main {
 }
 
 .fren-nav {
-  padding: 40px 30px 80px;
-  background-image: url("/images/head_moon.png");
-  background-repeat: no-repeat;
-  background-position: 10% 0px;
+  padding: 0px 30px;
+  position: absolute;
+  width: 100%;
+  height: 128px;
+  bottom: 0px;
+  align-items: center;
 }
 
 .btn {
@@ -105,6 +107,9 @@ main {
   padding: 0 30px;
   /*width: 100%;*/
   height: 100%;
+  background-image: url("/images/head_moon.png");
+  background-repeat: no-repeat;
+  background-position: 10% 0px;
 }
 
 .grid {
@@ -250,24 +255,35 @@ main {
 
 }
 
-.rotBtn {
+.toolBtn {
   width: 30px;
   height: 30px;
   padding: 0;
 }
 
-.rotBtn .icon {
+.toolBtn .icon {
   /* not sure where this pixel came from */
   margin: -1px 0 0 -1px;
   width: 30px;
   height: 30px;
-  background-image: url("/images/icon_rotate.png");
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.45;
 }
 
-.rotBtn:hover .icon {
+.rotBtn .icon {
+  background-image: url("/images/icon_rotate.png");
+}
+
+.cancelBtn .icon {
+  background-image: url("/images/icon_cancel.png");
+}
+
+.buyBtn .icon {
+  background-image: url("/images/icon_buy.png");
+}
+
+.toolBtn:hover .icon {
   opacity: 1;
 }
 

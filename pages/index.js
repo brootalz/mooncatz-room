@@ -12,7 +12,7 @@ const Index = () => {
   const [haveMetamask, setHaveMetamask] = useState(true);
 
   const [user, session, logIn, logOut, claimTokens, updateUserNFTs, starItem] = useUser();
-  // const [items, createItem, updateItem, buyItem] = useItem();
+  const [items, createItem, updateItem, buyItem] = useItem();
 
   const [client, setClient] = useState({
     isConnected: false,
@@ -53,7 +53,8 @@ const Index = () => {
           address: accounts[0],
         });
         getBalance(client.address);
-        // getMooncatzBalance(client.address);
+        logIn(client.address);
+        console.log(items);
       } else {
         setClient({
           isConnected: false,
@@ -96,6 +97,7 @@ const Index = () => {
 
   useEffect(() => {
     checkConnection();
+
     // window.onresize = (e) => {
       // Keeps Menu Items Square
       // let menuItems = document.getElementsByClassName("menuItem");
@@ -108,9 +110,21 @@ const Index = () => {
 
   return (
     <>
-      <nav className="fren-nav d-flex">
+      <section className="container">
+        <main>
+          {/* ---- */}
+          <div className="grid">
+            <Room />
+            <Menu />
+          </div>
+
+          {/* ---- */}
+        </main>
+      </section>
+
+      <div className="fren-nav d-flex">
         <div className="logo">
-          <img src="images/logo.png" alt="MOONCATZ MARKET" />
+          <img src="images/logo.png" alt="MOONCATZ" width={ 180 } height={ 64 } />
         </div>
         <div className="d-flex" style={{ marginLeft: "auto" }}>
           <div>
@@ -126,21 +140,8 @@ const Index = () => {
             </button>
           </div>
         </div>
-      </nav>
+      </div>
 
-
-
-      <section className="container">
-        <main>
-          {/* ---- */}
-          <div className="grid">
-            <Room />
-            <Menu />
-          </div>
-
-          {/* ---- */}
-        </main>
-      </section>
     </>
   );
 };

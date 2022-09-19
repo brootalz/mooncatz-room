@@ -106,6 +106,14 @@ const Menu = () => {
     }
   }
 
+  const handleCancelClick = (e) => {
+
+  }
+
+  const handleBuyClick = (e) => {
+
+  }
+
   const flipBed = (itemData) => {
     console.log("flip bed!");
     console.log(itemData);
@@ -122,6 +130,25 @@ const Menu = () => {
       document.getElementById("bedDesign").src = document.getElementById("bedDesign").dataset.assetnormal;
       document.getElementById("bedPillow").src = document.getElementById("bedPillow").dataset.assetnormal;
       document.getElementById("bedSheet").src = document.getElementById("bedSheet").dataset.assetnormal;
+    };
+  }
+
+  const flipDesk = (itemData) => {
+    console.log("flip desk!");
+    console.log(itemData);
+    const base = document.getElementById("deskBase");
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
+      document.getElementById("deskType").src = document.getElementById("deskType").dataset.assetreverse;
+      document.getElementById("deskChair").src = document.getElementById("deskChair").dataset.assetreverse;
+      document.getElementById("deskMirror").src = document.getElementById("deskMirror").dataset.assetreverse;
+      document.getElementById("deskItems").src = document.getElementById("deskItems").dataset.assetreverse;
+    } else {
+      base.dataset.isreversed = "false";
+      document.getElementById("deskType").src = document.getElementById("deskType").dataset.assetnormal;
+      document.getElementById("deskChair").src = document.getElementById("deskChair").dataset.assetnormal;
+      document.getElementById("deskMirror").src = document.getElementById("deskMirror").dataset.assetnormal;
+      document.getElementById("deskItems").src = document.getElementById("deskItems").dataset.assetnormal;
     };
   }
 
@@ -144,8 +171,18 @@ const Menu = () => {
           </ul>
           <hr />
           <div id="rotateBtn"
-            className={ (curSlot == "bedFrame") ? "rotBtn btn tooltip" : "rotBtn btn tooltip disabled" }
+            className={ (curSlot == "bedFrame") ? "rotBtn toolBtn btn tooltip" : "rotBtn toolBtn btn tooltip disabled" }
             onClick={ handleRotateClick }>
+              <div className="icon"></div>
+          </div>
+          <div id="cancelBtn"
+            className={ (curSlot == "bedFrame") ? "cancelBtn toolBtn btn tooltip" : "cancelBtn toolBtn btn tooltip disabled" }
+            onClick={ handleCancelClick }>
+              <div className="icon"></div>
+          </div>
+          <div id="buyBtn"
+            className={ (curSlot == "bedFrame") ? "buyBtn toolBtn btn tooltip" : "buyBtn toolBtn btn tooltip disabled" }
+            onClick={ handleBuyClick }>
               <div className="icon"></div>
           </div>
         </div>

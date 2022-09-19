@@ -236,7 +236,7 @@ function useItem() {
             });
 
             if (data) {
-                return `Successfully brought ${item.name}`;
+                return `Successfully bought ${item.name}`;
             }
         } catch (e) {
             throw new Error(e.message);
