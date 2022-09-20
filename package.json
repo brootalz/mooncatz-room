@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "envsubst < .env.complie > .env && envsubst < aws-exports.js.compile > aws-exports.js && cat aws-exports.js && next build",
+    "build": "envsubst < .env.complie > .env && envsubst < aws-exports.js.complie > aws-exports.js && cat aws-exports.js && next build",
     "start": "next start",
     "lint": "next lint",
     "pre-commit": "next lint"
