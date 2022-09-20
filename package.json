@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yum --help && apt-get --help && apk --help && next build",
     "start": "next start",
     "lint": "next lint",
     "pre-commit": "next lint"
