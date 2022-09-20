@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "sudo apt-get install gettext-base && envsubst < .env.compile > .env && envsubst < aws-exports.js.compile > aws-exports.js && next build",
+    "build": "envsubst < .env.compile > .env && envsubst < aws-exports.js.compile > aws-exports.js && next build",
     "start": "next start",
     "lint": "next lint",
     "pre-commit": "next lint"
