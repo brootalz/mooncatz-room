@@ -52,9 +52,13 @@ const Index = () => {
           isConnected: true,
           address: accounts[0],
         });
-        getBalance(client.address);
-        logIn(client.address);
-        console.log(items);
+        if (client.address) {
+          getBalance(client.address);
+          logIn(client.address);
+          console.log(items);
+        } else {
+          console.log("No wallet address?");
+        }
       } else {
         setClient({
           isConnected: false,

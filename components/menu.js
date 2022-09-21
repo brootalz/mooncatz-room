@@ -101,6 +101,8 @@ const Menu = () => {
       case "deskChair":
       case "deskMirror":
       case "deskItem":
+        flipDesk(itemData);
+        break;
       default:
         console.log("no slot found");
     }
@@ -118,18 +120,24 @@ const Menu = () => {
     console.log("flip bed!");
     console.log(itemData);
     const base = document.getElementById("bedBase");
+    const subLayers = [
+      document.getElementById("bedFrame"),
+      document.getElementById("bedDesign"),
+      document.getElementById("bedPillow"),
+      document.getElementById("bedSheet")
+    ];
     if (base.dataset.isreversed == "false") {
       base.dataset.isreversed = "true";
-      document.getElementById("bedFrame").src = document.getElementById("bedFrame").dataset.assetreverse;
-      document.getElementById("bedDesign").src = document.getElementById("bedDesign").dataset.assetreverse;
-      document.getElementById("bedPillow").src = document.getElementById("bedPillow").dataset.assetreverse;
-      document.getElementById("bedSheet").src = document.getElementById("bedSheet").dataset.assetreverse;
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetreverse;
+        l.dataset.isreversed = "true";
+      });
     } else {
       base.dataset.isreversed = "false";
-      document.getElementById("bedFrame").src = document.getElementById("bedFrame").dataset.assetnormal;
-      document.getElementById("bedDesign").src = document.getElementById("bedDesign").dataset.assetnormal;
-      document.getElementById("bedPillow").src = document.getElementById("bedPillow").dataset.assetnormal;
-      document.getElementById("bedSheet").src = document.getElementById("bedSheet").dataset.assetnormal;
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetnormal;
+        l.dataset.isreversed = "false";
+      });
     };
   }
 
@@ -137,18 +145,24 @@ const Menu = () => {
     console.log("flip desk!");
     console.log(itemData);
     const base = document.getElementById("deskBase");
+    const subLayers = [
+      document.getElementById("deskType"),
+      document.getElementById("deskChair"),
+      document.getElementById("deskMirror"),
+      document.getElementById("deskItem")
+    ];
     if (base.dataset.isreversed == "false") {
       base.dataset.isreversed = "true";
-      document.getElementById("deskType").src = document.getElementById("deskType").dataset.assetreverse;
-      document.getElementById("deskChair").src = document.getElementById("deskChair").dataset.assetreverse;
-      document.getElementById("deskMirror").src = document.getElementById("deskMirror").dataset.assetreverse;
-      document.getElementById("deskItems").src = document.getElementById("deskItems").dataset.assetreverse;
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetreverse;
+        l.dataset.isreversed = "true";
+      });
     } else {
       base.dataset.isreversed = "false";
-      document.getElementById("deskType").src = document.getElementById("deskType").dataset.assetnormal;
-      document.getElementById("deskChair").src = document.getElementById("deskChair").dataset.assetnormal;
-      document.getElementById("deskMirror").src = document.getElementById("deskMirror").dataset.assetnormal;
-      document.getElementById("deskItems").src = document.getElementById("deskItems").dataset.assetnormal;
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetnormal;
+        l.dataset.isreversed = "false";
+      });
     };
   }
 

@@ -89,13 +89,6 @@ const Room = () => {
 							data-assetreverse="/images/roomAssets/blank.png"
 							src="/images/roomAssets/blank.png" id="bedPillow" />
 		      </div>
-		      <div className="roomSubLayer" style={{zIndex: 114}}>
-						<img alt=""
-							data-isreversed="false"
-							data-assetnormal="/images/roomAssets/blank.png"
-							data-assetreverse="/images/roomAssets/blank.png"
-							src="/images/roomAssets/blank.png" id="bedPillow2" />
-		      </div>
 		      <div className="roomSubLayer" style={{zIndex: 115}}>
 		      	<img alt=""
 		      		data-isreversed="false"
