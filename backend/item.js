@@ -14,7 +14,6 @@ function useItem() {
         items: [],
         nextToken: null,
     });
-    const [controller, setController] = useState(new AbortController());
     const [subscriptionOnUpdate, setSubscriptionOnUpdate] = useState(null);
     const [subscriptionOnCreate, setSubscriptionOnCreate] = useState(null);
 
@@ -36,6 +35,9 @@ function useItem() {
             const { data, error, extensions } = await API.graphql({
                 authMode: 'API_KEY',
                 query: listItems,
+                variables: {
+                    limit: 1000,
+                }
             });
             setItems(data?.listItems ?? undefined);
         } catch (e) {
@@ -80,14 +82,13 @@ function useItem() {
 
 
             return () => {
-                controller.abort();
                 subscriptionOnUpdate?.unsubscribe();
                 subscriptionOnCreate?.unsubscribe();
             }
         } catch (e) {
             throw new Error(e.message);
         }
-    }, [controller, subscriptionOnCreate, subscriptionOnUpdate]);
+    }, [subscriptionOnCreate, subscriptionOnUpdate]);
 
     /*
         Create Item Object Struct
