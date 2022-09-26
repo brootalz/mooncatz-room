@@ -2,11 +2,6 @@
 # all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
 input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
 
-enum SellingType {
-    RAFFLE
-    FCFS
-}
-
 type NFTs {
     contract: String
     tokenId: String
@@ -39,4 +34,5 @@ type Item @model @auth(rules: [{allow: public}]) {
     quantity: Int
     slots: String
     users: [User] @manyToMany(relationName: "UserItem")
+    sellingType: String @index(name: "sellingType-index", queryField: "getItemsBySellingType")
 }

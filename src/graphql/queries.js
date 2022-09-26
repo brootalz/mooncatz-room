@@ -20,6 +20,7 @@ export const getUser = /* GraphQL */ `
         tokenId
         traits
       }
+      itemsStarred
       items {
         items {
           id
@@ -59,6 +60,7 @@ export const listUsers = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -78,6 +80,7 @@ export const getItem = /* GraphQL */ `
       description
       traits
       quantity
+      slots
       users {
         items {
           id
@@ -88,6 +91,7 @@ export const getItem = /* GraphQL */ `
         }
         nextToken
       }
+      sellingType
       createdAt
       updatedAt
     }
@@ -107,17 +111,13 @@ export const listItems = /* GraphQL */ `
         description
         traits
         quantity
+        slots
+        users {
+          nextToken
+        }
+        sellingType
         createdAt
         updatedAt
-          users(limit: 10000) {
-              items {
-                  user {
-                      id
-                      tokens
-                      discordId
-                  }
-              }
-          }
       }
       nextToken
     }
@@ -146,6 +146,7 @@ export const getUserItem = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -159,9 +160,11 @@ export const getUserItem = /* GraphQL */ `
         description
         traits
         quantity
+        slots
         users {
           nextToken
         }
+        sellingType
         createdAt
         updatedAt
       }
@@ -193,6 +196,7 @@ export const listUserItems = /* GraphQL */ `
           discriminator
           ethMintingWallet
           solMintingWallet
+          itemsStarred
           createdAt
           updatedAt
         }
@@ -203,6 +207,8 @@ export const listUserItems = /* GraphQL */ `
           description
           traits
           quantity
+          slots
+          sellingType
           createdAt
           updatedAt
         }
@@ -245,17 +251,9 @@ export const getWalletByWalletAddress = /* GraphQL */ `
           tokenId
           traits
         }
-        items(limit: 10000) {
-            items {
-                item {
-                    description
-                    id
-                    name
-                    price
-                    quantity
-                    traits
-                }
-            }
+        itemsStarred
+        items {
+          nextToken
         }
         createdAt
         updatedAt
@@ -296,18 +294,44 @@ export const getWalletByDiscordId = /* GraphQL */ `
           tokenId
           traits
         }
-        items(limit: 10000) {
-            items {
-                item {
-                    description
-                    id
-                    name
-                    price
-                    quantity
-                    traits
-                }
-            }
+        itemsStarred
+        items {
+          nextToken
         }
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+`;
+export const getItemsBySellingType = /* GraphQL */ `
+  query GetItemsBySellingType(
+    $sellingType: String!
+    $sortDirection: ModelSortDirection
+    $filter: ModelItemFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    getItemsBySellingType(
+      sellingType: $sellingType
+      sortDirection: $sortDirection
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+    ) {
+      items {
+        id
+        name
+        price
+        description
+        traits
+        quantity
+        slots
+        users {
+          nextToken
+        }
+        sellingType
         createdAt
         updatedAt
       }
