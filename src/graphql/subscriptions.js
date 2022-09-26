@@ -20,6 +20,7 @@ export const onCreateUser = /* GraphQL */ `
         tokenId
         traits
       }
+      itemsStarred
       items {
         items {
           id
@@ -54,6 +55,7 @@ export const onUpdateUser = /* GraphQL */ `
         tokenId
         traits
       }
+      itemsStarred
       items {
         items {
           id
@@ -88,6 +90,7 @@ export const onDeleteUser = /* GraphQL */ `
         tokenId
         traits
       }
+      itemsStarred
       items {
         items {
           id
@@ -112,6 +115,7 @@ export const onCreateItem = /* GraphQL */ `
       description
       traits
       quantity
+      slots
       users {
         items {
           id
@@ -122,6 +126,7 @@ export const onCreateItem = /* GraphQL */ `
         }
         nextToken
       }
+      sellingType
       createdAt
       updatedAt
     }
@@ -136,6 +141,7 @@ export const onUpdateItem = /* GraphQL */ `
       description
       traits
       quantity
+      slots
       users {
         items {
           id
@@ -146,6 +152,7 @@ export const onUpdateItem = /* GraphQL */ `
         }
         nextToken
       }
+      sellingType
       createdAt
       updatedAt
     }
@@ -160,6 +167,7 @@ export const onDeleteItem = /* GraphQL */ `
       description
       traits
       quantity
+      slots
       users {
         items {
           id
@@ -170,6 +178,7 @@ export const onDeleteItem = /* GraphQL */ `
         }
         nextToken
       }
+      sellingType
       createdAt
       updatedAt
     }
@@ -198,6 +207,7 @@ export const onCreateUserItem = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -211,9 +221,11 @@ export const onCreateUserItem = /* GraphQL */ `
         description
         traits
         quantity
+        slots
         users {
           nextToken
         }
+        sellingType
         createdAt
         updatedAt
       }
@@ -245,6 +257,7 @@ export const onUpdateUserItem = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -258,9 +271,11 @@ export const onUpdateUserItem = /* GraphQL */ `
         description
         traits
         quantity
+        slots
         users {
           nextToken
         }
+        sellingType
         createdAt
         updatedAt
       }
@@ -292,6 +307,7 @@ export const onDeleteUserItem = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -305,9 +321,11 @@ export const onDeleteUserItem = /* GraphQL */ `
         description
         traits
         quantity
+        slots
         users {
           nextToken
         }
+        sellingType
         createdAt
         updatedAt
       }

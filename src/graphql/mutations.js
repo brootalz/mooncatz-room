@@ -23,6 +23,7 @@ export const createUser = /* GraphQL */ `
         tokenId
         traits
       }
+      itemsStarred
       items {
         items {
           id
@@ -60,6 +61,7 @@ export const updateUser = /* GraphQL */ `
         tokenId
         traits
       }
+      itemsStarred
       items {
         items {
           id
@@ -97,6 +99,7 @@ export const deleteUser = /* GraphQL */ `
         tokenId
         traits
       }
+      itemsStarred
       items {
         items {
           id
@@ -135,6 +138,7 @@ export const createItem = /* GraphQL */ `
         }
         nextToken
       }
+      sellingType
       createdAt
       updatedAt
     }
@@ -163,6 +167,7 @@ export const updateItem = /* GraphQL */ `
         }
         nextToken
       }
+      sellingType
       createdAt
       updatedAt
     }
@@ -191,6 +196,7 @@ export const deleteItem = /* GraphQL */ `
         }
         nextToken
       }
+      sellingType
       createdAt
       updatedAt
     }
@@ -222,6 +228,7 @@ export const createUserItem = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -235,9 +242,11 @@ export const createUserItem = /* GraphQL */ `
         description
         traits
         quantity
+        slots
         users {
           nextToken
         }
+        sellingType
         createdAt
         updatedAt
       }
@@ -272,6 +281,7 @@ export const updateUserItem = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -285,9 +295,11 @@ export const updateUserItem = /* GraphQL */ `
         description
         traits
         quantity
+        slots
         users {
           nextToken
         }
+        sellingType
         createdAt
         updatedAt
       }
@@ -322,6 +334,7 @@ export const deleteUserItem = /* GraphQL */ `
           tokenId
           traits
         }
+        itemsStarred
         items {
           nextToken
         }
@@ -335,9 +348,11 @@ export const deleteUserItem = /* GraphQL */ `
         description
         traits
         quantity
+        slots
         users {
           nextToken
         }
+        sellingType
         createdAt
         updatedAt
       }
