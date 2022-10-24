@@ -53,20 +53,27 @@ const Room = () => {
 						data-assetreverse="/images/roomAssets/blank.png"
 						src="/images/roomAssets/blank.png" id="rugDesign" />
 	      </div>
-	      <div className="roomLayer" style={{zIndex: 108}}>
-	      	<img alt=""
-	      		data-isreversed="false"
-	      		data-assetnormal="/images/roomAssets/blank.png"
-	      		data-assetreverse="/images/roomAssets/blank.png"
-	      		src="/images/roomAssets/Base Window.png" id="windowType" />
-	      </div>
-	      <div className="roomLayer" style={{zIndex: 109}}>
-					<img alt=""
+
+	      {/* Window BEGIN */}
+	      <div className="roomLayer" data-isreversed={ false } id="windowBase" style={{zIndex: 108}}>
+					<div className="roomSubLayer" style={{zIndex: 108}}>
+						<img alt=""
+							data-isreversed="false"
+							data-assetnormal="/images/roomAssets/blank.png"
+							data-assetreverse="/images/roomAssets/blank.png"
+							src="/images/roomAssets/Base Window.png" id="windowType" />
+					</div>
+					<div className="roomSubLayer" style={{zIndex: 109}}>
+						<img alt=""
 						data-isreversed="false"
 						data-assetnormal="/images/roomAssets/blank.png"
 						data-assetreverse="/images/roomAssets/blank.png"
 						src="/images/roomAssets/blank.png" id="windowCurtains" />
+					</div>
 	      </div>
+	    {/* Window END */}
+
+			{/* Bed BEGIN */}
 	      <div className="roomLayer" data-isreversed={ false } id="bedBase" style={{zIndex: 110}}>
 		      <div className="roomSubLayer" style={{zIndex: 111}}>
 		      	<img alt=""
@@ -97,8 +104,11 @@ const Room = () => {
 		      		src="/images/roomAssets/blank.png" id="bedSheet" />
 		      </div>
 	      </div>
+	      {/* Bed END */}
+
+	      {/* Desk BEGIN */}
 	      <div className="roomLayer" id="deskBase" style={{zIndex: 116}}>
-		      <div className="roomSubLayer" style={{zIndex: 117}}>
+		      <div className="roomSubLayer" style={{zIndex: 116}}>
 						<img alt=""
 							data-isreversed="false"
 							data-assetnormal="/images/roomAssets/blank.png"
@@ -127,20 +137,27 @@ const Room = () => {
 							src="/images/roomAssets/blank.png" id="deskItem" />
 		      </div>
 	      </div>
-	      <div className="roomLayer" style={{zIndex: 120}}>
-					<img alt=""
-						data-isreversed="false"
-						data-assetnormal="/images/roomAssets/blank.png"
-						data-assetreverse="/images/roomAssets/blank.png"
-						src="/images/roomAssets/blank.png" id="shelf" />
+	    	{/* Desk END */}
+
+	    	{/* Shelf BEGIN */}
+	      <div className="roomLayer" id="shelfBase" style={{zIndex: 120}}>
+		      <div className="roomSubLayer" style={{zIndex: 120}}>
+						<img alt=""
+							data-isreversed="false"
+							data-assetnormal="/images/roomAssets/blank.png"
+							data-assetreverse="/images/roomAssets/blank.png"
+							src="/images/roomAssets/blank.png" id="shelf" />
+					</div>
+		      <div className="roomSubLayer" style={{zIndex: 121}}>
+						<img alt=""
+							data-isreversed="false"
+							data-assetnormal="/images/roomAssets/blank.png"
+							data-assetreverse="/images/roomAssets/blank.png"
+							src="/images/roomAssets/blank.png" id="shelfItem" />
+		      </div>
 	      </div>
-	      <div className="roomLayer" style={{zIndex: 121}}>
-					<img alt=""
-						data-isreversed="false"
-						data-assetnormal="/images/roomAssets/blank.png"
-						data-assetreverse="/images/roomAssets/blank.png"
-						src="/images/roomAssets/blank.png" id="shelfItem" />
-	      </div>
+	    	{/* Shelf END */}
+
 	      <div className="roomLayer" style={{zIndex: 122}}>
 					<img alt=""
 						data-isreversed="false"
@@ -148,6 +165,7 @@ const Room = () => {
 						data-assetreverse="/images/roomAssets/blank.png"
 						src="/images/roomAssets/blank.png" id="bigPlant" />
 	      </div>
+
 	      <div className="roomLayer" style={{zIndex: 123}}>
 					<img alt=""
 						data-isreversed="false"
@@ -155,6 +173,7 @@ const Room = () => {
 						data-assetreverse="/images/roomAssets/blank.png"
 						src="/images/roomAssets/blank.png" id="catBed" />
 	      </div>
+
 	      <div className="roomLayer" style={{zIndex: 124}}>
 					<img alt=""
 						data-isreversed="false"
@@ -162,6 +181,7 @@ const Room = () => {
 						data-assetreverse="/images/roomAssets/blank.png"
 						src="/images/roomAssets/blank.png" id="poster" />
 	      </div>
+
 	      <div className="roomLayer" style={{zIndex: 125}}>
 					<img alt=""
 						data-isreversed="false"
@@ -169,6 +189,7 @@ const Room = () => {
 						data-assetreverse="/images/roomAssets/blank.png"
 						src="/images/roomAssets/blank.png" id="pictureFrame" />
 	      </div>
+	      
       </div>
     </>
 	);

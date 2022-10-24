@@ -1,0 +1,2050 @@
+{
+	"path": "/images/roomAssets",
+	"name": "Room",
+	"children": [
+		{
+			"path": "/images/roomAssets/Art",
+			"name": "Art",
+			"children": [
+				{
+					"path": "/images/roomAssets/Art/Picture Frame",
+					"name": "Picture Frame",
+					"slot": "pictureFrame",
+					"children": [
+						{
+							"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A1.png",
+							"name": "Picture Frame Side A1.png",
+							"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B1.png",
+							"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A1 thumb.png",
+							"id": "06d2e60d-ba81-48ce-af15-d393e6815395"
+						},
+						{
+							"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A3.png",
+							"name": "Picture Frame Side A3.png",
+							"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B3.png",
+							"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A3 thumb.png",
+							"id": "b31bc0b8-394e-4644-b1ef-91d82c7f1360"
+						},
+						{
+							"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A4.png",
+							"name": "Picture Frame Side A4.png",
+							"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B4.png",
+							"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A4 thumb.png",
+							"id": "518c3a72-eb87-4e6a-8c91-9d18da3d0678"
+						},
+						{
+							"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A5.png",
+							"name": "Picture Frame Side A5.png",
+							"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B5.png",
+							"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A5 thumb.png",
+							"id": "178906d4-9363-4dc5-bdf7-db8b43ed18e5"
+						},
+						{
+							"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A6.png",
+							"name": "Picture Frame Side A6.png",
+							"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B6.png",
+							"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A6 thumb.png",
+							"id": "8f72ea51-69bd-4264-bb63-206869f33ade"
+						},
+						{
+							"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A7.png",
+							"name": "Picture Frame Side A7.png",
+							"reverse": "/images/roomAssets/Art/Picture Frame/Picture Frame Side B7.png",
+							"thumb": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A7 thumb.png",
+							"id": "e94d5371-78a4-4074-874c-00d13d9d0785"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Art/Poster",
+					"name": "Poster",
+					"slot": "poster",
+					"children": [
+						{
+							"path": "/images/roomAssets/Art/Poster/Poster Side A1.png",
+							"name": "Poster Side A1.png",
+							"reverse": "/images/roomAssets/Art/Poster/Poster Side B1.png",
+							"thumb": "/images/roomAssets/Art/Poster/Poster Side A1 thumb.png",
+							"id": "b7d074f9-83bb-435d-9593-cb769a399fee"
+						},
+						{
+							"path": "/images/roomAssets/Art/Poster/Poster Side A2.png",
+							"name": "Poster Side A2.png",
+							"reverse": "/images/roomAssets/Art/Poster/Poster Side B2.png",
+							"thumb": "/images/roomAssets/Art/Poster/Poster Side A2 thumb.png",
+							"id": "650d25fa-5d24-410f-bbf8-b0157ea15f32"
+						},
+						{
+							"path": "/images/roomAssets/Art/Poster/Poster Side A3.png",
+							"name": "Poster Side A3.png",
+							"reverse": "/images/roomAssets/Art/Poster/Poster Side B3.png",
+							"thumb": "/images/roomAssets/Art/Poster/Poster Side A3 thumb.png",
+							"id": "66676079-1a74-4cfb-8433-a69e90fa6f4a"
+						},
+						{
+							"path": "/images/roomAssets/Art/Poster/Poster Side A4.png",
+							"name": "Poster Side A4.png",
+							"reverse": "/images/roomAssets/Art/Poster/Poster Side B4.png",
+							"thumb": "/images/roomAssets/Art/Poster/Poster Side A4 thumb.png",
+							"id": "f8f9829c-df52-4be1-b024-551eac50477d"
+						},
+						{
+							"path": "/images/roomAssets/Art/Poster/Poster Side A5.png",
+							"name": "Poster Side A5.png",
+							"reverse": "/images/roomAssets/Art/Poster/Poster Side B5.png",
+							"thumb": "/images/roomAssets/Art/Poster/Poster Side A5 thumb.png",
+							"id": "4549a2b9-86e2-4fd0-be83-c06b30655bf6"
+						},
+						{
+							"path": "/images/roomAssets/Art/Poster/Poster Side A6.png",
+							"name": "Poster Side A6.png",
+							"reverse": "/images/roomAssets/Art/Poster/Poster Side B6.png",
+							"thumb": "/images/roomAssets/Art/Poster/Poster Side A6 thumb.png",
+							"id": "328e87bd-2377-4f99-bdec-2215894347d7"
+						},
+						{
+							"path": "/images/roomAssets/Art/Poster/Poster Side A7.png",
+							"name": "Poster Side A7.png",
+							"reverse": "/images/roomAssets/Art/Poster/Poster Side B7.png",
+							"thumb": "/images/roomAssets/Art/Poster/Poster Side A7 thumb.png",
+							"id": "958bb793-cf66-43c7-ad69-3fb8944b4643"
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "/images/roomAssets/Bed",
+			"name": "Bed",
+			"children": [
+				{
+					"path": "/images/roomAssets/Bed/Frame",
+					"name": "Frame",
+					"slot": "bedFrame",
+					"children": [
+						{
+							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A1.png",
+							"name": "Bed Frame Side A1.png",
+							"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B1.png",
+							"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A1 thumb.png",
+							"id": "85282f3c-fa22-40f0-b8ab-a3d1dbcfa21b"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A2.png",
+							"name": "Bed Frame Side A2.png",
+							"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B2.png",
+							"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A2 thumb.png",
+							"id": "0d5b9b43-a278-41fd-96c9-1e123c7ef9ef"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A3.png",
+							"name": "Bed Frame Side A3.png",
+							"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B3.png",
+							"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A3 thumb.png",
+							"id": "254f9e2f-f0f6-402b-83e4-6eff90a05d6d"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A4.png",
+							"name": "Bed Frame Side A4.png",
+							"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B4.png",
+							"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A4 thumb.png",
+							"id": "1644de28-4d99-4a21-810f-ebdac43e97ef"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A5.png",
+							"name": "Bed Frame Side A5.png",
+							"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B5.png",
+							"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A5 thumb.png",
+							"id": "fb7bdbbc-8fe5-4117-ae8a-7e5e21ea8089"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A6.png",
+							"name": "Bed Frame Side A6.png",
+							"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B6.png",
+							"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A6 thumb.png",
+							"id": "334e5067-baad-4ff0-9093-c69f45ef7d9d"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A7.png",
+							"name": "Bed Frame Side A7.png",
+							"reverse": "/images/roomAssets/Bed/Frame/Bed Frame Side B7.png",
+							"thumb": "/images/roomAssets/Bed/Frame/Bed Frame Side A7 thumb.png",
+							"id": "bd86b3ef-c066-49d1-b244-3330ca8dabe2"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Bed/Design",
+					"name": "Design",
+					"slot": "bedDesign",
+					"children": [
+						{
+							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A1.png",
+							"name": "Bed Frame Design Side A1.png",
+							"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B1.png",
+							"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A1 thumb.png",
+							"id": "8586f129-f711-4098-8187-88485f70c08d"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A3.png",
+							"name": "Bed Frame Design Side A3.png",
+							"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B3.png",
+							"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A3 thumb.png",
+							"id": "67b2a8de-91d6-4fe7-a122-0d7df53cc94e"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A4.png",
+							"name": "Bed Frame Design Side A4.png",
+							"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B4.png",
+							"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A4 thumb.png",
+							"id": "f7343c83-58ee-4ed2-8d07-727da4d488ea"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A5.png",
+							"name": "Bed Frame Design Side A5.png",
+							"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B5.png",
+							"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A5 thumb.png",
+							"id": "de43aa47-fc20-4f21-88b7-9ff584136850"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A6.png",
+							"name": "Bed Frame Design Side A6.png",
+							"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B6.png",
+							"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A6 thumb.png",
+							"id": "5d85101f-8fb5-4418-93c6-f99d9819948b"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A7.png",
+							"name": "Bed Frame Design Side A7.png",
+							"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B7.png",
+							"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A7 thumb.png",
+							"id": "6b56bc0b-5811-417a-a5ea-2764cc8a64b6"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A8.png",
+							"name": "Bed Frame Design Side A8.png",
+							"reverse": "/images/roomAssets/Bed/Design/Bed Frame Design Side B8.png",
+							"thumb": "/images/roomAssets/Bed/Design/Bed Frame Design Side A8 thumb.png",
+							"id": "6bd94d4d-59d6-4dad-a909-a59837c5b599"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Bed/Pillow",
+					"name": "Pillow",
+					"slot": "bedPillow",
+					"children": [
+						{
+							"path": "/images/roomAssets/Bed/Pillow/Double",
+							"name": "Double",
+							"children": [
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A1.png",
+									"name": "Pillow 2 Side A1.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side B1.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A2.png",
+									"name": "Pillow 2 Side A2.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side B2.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A3.png",
+									"name": "Pillow 2 Side A3.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side B3.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A4.png",
+									"name": "Pillow 2 Side A4.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side B4.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A5.png",
+									"name": "Pillow 2 Side A5.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side B5.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A6.png",
+									"name": "Pillow 2 Side A6.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side B6.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A7.png",
+									"name": "Pillow 2 Side A7.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side B7.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Double/Pillow 2 Side A7 thumb.png"
+								}
+							],
+							"id": "179530bb-3578-4dc6-9742-f53276dc9514"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Pillow/Meow",
+							"name": "Meow",
+							"children": [
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A1.png",
+									"name": "Pillow 1 Side A1.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side B1.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A2.png",
+									"name": "Pillow 1 Side A2.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side B2.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A3.png",
+									"name": "Pillow 1 Side A3.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side B3.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A4.png",
+									"name": "Pillow 1 Side A4.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side B4.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A5.png",
+									"name": "Pillow 1 Side A5.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side B5.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A6.png",
+									"name": "Pillow 1 Side A6.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side B6.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A7.png",
+									"name": "Pillow 1 Side A7.png",
+									"reverse": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side B7.png",
+									"thumb": "/images/roomAssets/Bed/Pillow/Meow/Pillow 1 Side A7 thumb.png"
+								}
+							],
+							"id": "5a6f08a9-ac19-47c7-a331-4a7ccc41954f"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Bed/Sheet",
+					"name": "Sheet",
+					"slot": "bedSheet",
+					"children": [
+						{
+							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A1.png",
+							"name": "Bed Sheet Side A1.png",
+							"reverse": "/images/roomAssets/Bed/Sheet/Bed Sheet Side B1.png",
+							"thumb": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A1 thumb.png",
+							"id": "2fc70681-deff-4cd2-b7f7-4bed24eb6fe3"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A2.png",
+							"name": "Bed Sheet Side A2.png",
+							"reverse": "/images/roomAssets/Bed/Sheet/Bed Sheet Side B2.png",
+							"thumb": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A2 thumb.png",
+							"id": "0c53ddca-a791-403a-bc65-8262fb53f557"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A3.png",
+							"name": "Bed Sheet Side A3.png",
+							"reverse": "/images/roomAssets/Bed/Sheet/Bed Sheet Side B3.png",
+							"thumb": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A3 thumb.png",
+							"id": "5e701729-b876-465b-a888-04a63a12efa6"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A4.png",
+							"name": "Bed Sheet Side A4.png",
+							"reverse": "/images/roomAssets/Bed/Sheet/Bed Sheet Side B4.png",
+							"thumb": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A4 thumb.png",
+							"id": "19c0ac2e-243b-4f9d-9096-eed4678e0671"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A5.png",
+							"name": "Bed Sheet Side A5.png",
+							"reverse": "/images/roomAssets/Bed/Sheet/Bed Sheet Side B5.png",
+							"thumb": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A5 thumb.png",
+							"id": "4b97090a-ce70-49e0-89e9-678031099dd6"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A6.png",
+							"name": "Bed Sheet Side A6.png",
+							"reverse": "/images/roomAssets/Bed/Sheet/Bed Sheet Side B6.png",
+							"thumb": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A6 thumb.png",
+							"id": "6943e30b-553a-43fb-85f4-e970daaf6ec4"
+						},
+						{
+							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A7.png",
+							"name": "Bed Sheet Side A7.png",
+							"reverse": "/images/roomAssets/Bed/Sheet/Bed Sheet Side B7.png",
+							"thumb": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A7 thumb.png",
+							"id": "de291c2d-4a7d-48a5-9d08-a397519319ba"
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "/images/roomAssets/Desk",
+			"name": "Desk",
+			"children": [
+				{
+					"path": "/images/roomAssets/Desk/Desk",
+					"name": "Desk",
+					"slot": "deskType",
+					"children": [
+						{
+							"path": "/images/roomAssets/Desk/Desk/Desk 1",
+							"name": "Desk 1",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A1.png",
+									"name": "Table 1 Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A2.png",
+									"name": "Table 1 Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A3.png",
+									"name": "Table 1 Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A4.png",
+									"name": "Table 1 Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A5.png",
+									"name": "Table 1 Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A6.png",
+									"name": "Table 1 Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A7.png",
+									"name": "Table 1 Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 1/Table 1 Side A7 thumb.png"
+								}
+							],
+							"id": "f110439e-98e3-4b70-8522-43ddc7e5d3de"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Desk/Desk 2",
+							"name": "Desk 2",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A1.png",
+									"name": "Table 2 Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A2.png",
+									"name": "Table 2 Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A3.png",
+									"name": "Table 2 Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A4.png",
+									"name": "Table 2 Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A5.png",
+									"name": "Table 2 Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A6.png",
+									"name": "Table 2 Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A7.png",
+									"name": "Table 2 Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 2/Table 2 Side A7 thumb.png"
+								}
+							],
+							"id": "12d6e32a-9516-4e99-9eb1-a034c738aa7a"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Desk/Desk 3",
+							"name": "Desk 3",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A1.png",
+									"name": "Table 3 Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A2.png",
+									"name": "Table 3 Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A3.png",
+									"name": "Table 3 Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A4.png",
+									"name": "Table 3 Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A5.png",
+									"name": "Table 3 Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A6.png",
+									"name": "Table 3 Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A7.png",
+									"name": "Table 3 Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Desk/Desk 3/Table 3 Side A7 thumb.png"
+								}
+							],
+							"id": "0f90b8da-144c-43ed-8278-07be0c94898c"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Desk/Chair",
+					"name": "Chair",
+					"slot": "deskChair",
+					"children": [
+						{
+							"path": "/images/roomAssets/Desk/Chair/Chair 1",
+							"name": "Chair 1",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A1.png",
+									"name": "Chair 1 Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A2.png",
+									"name": "Chair 1 Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A3.png",
+									"name": "Chair 1 Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A4.png",
+									"name": "Chair 1 Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A5.png",
+									"name": "Chair 1 Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A6.png",
+									"name": "Chair 1 Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A7.png",
+									"name": "Chair 1 Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 1/Chair 1 Side A7 thumb.png"
+								}
+							],
+							"id": "6bb329c6-3be7-42aa-81a2-afa9a010593d"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Chair/Chair 2",
+							"name": "Chair 2",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A1.png",
+									"name": "Chair 2 Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A2.png",
+									"name": "Chair 2 Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A3.png",
+									"name": "Chair 2 Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A4.png",
+									"name": "Chair 2 Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A5.png",
+									"name": "Chair 2 Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A6.png",
+									"name": "Chair 2 Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A7.png",
+									"name": "Chair 2 Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 2/Chair 2 Side A7 thumb.png"
+								}
+							],
+							"id": "36a5013a-4e0b-40a2-8de7-aac181d4c42e"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Chair/Chair 3",
+							"name": "Chair 3",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A1.png",
+									"name": "Chair 3 Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A2.png",
+									"name": "Chair 3 Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A3.png",
+									"name": "Chair 3 Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A4.png",
+									"name": "Chair 3 Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A5.png",
+									"name": "Chair 3 Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A6.png",
+									"name": "Chair 3 Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A7.png",
+									"name": "Chair 3 Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Chair/Chair 3/Chair 3 Side A7 thumb.png"
+								}
+							],
+							"id": "a1c7dc6f-8a97-4b5b-ad0e-0962eca1e91a"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Desk/Items",
+					"name": "Items",
+					"slot": "deskItem",
+					"children": [
+						{
+							"path": "/images/roomAssets/Desk/Items/Table Items Side A1.png",
+							"name": "Table Items Side A1.png",
+							"reverse": "/images/roomAssets/Desk/Items/Table Items Side B1.png",
+							"thumb": "/images/roomAssets/Desk/Items/Table Items Side A1 thumb.png",
+							"id": "2d9ae14e-28e5-478e-8721-80f51d53d157"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Items/Table Items Side A2.png",
+							"name": "Table Items Side A2.png",
+							"reverse": "/images/roomAssets/Desk/Items/Table Items Side B2.png",
+							"thumb": "/images/roomAssets/Desk/Items/Table Items Side A2 thumb.png",
+							"id": "25ed9ffb-9929-450d-9fa2-7849769b1e92"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Items/Table Items Side A3.png",
+							"name": "Table Items Side A3.png",
+							"reverse": "/images/roomAssets/Desk/Items/Table Items Side B3.png",
+							"thumb": "/images/roomAssets/Desk/Items/Table Items Side A3 thumb.png",
+							"id": "feed40fa-d881-437c-b837-f1607e0c440c"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Items/Table Items Side A4.png",
+							"name": "Table Items Side A4.png",
+							"reverse": "/images/roomAssets/Desk/Items/Table Items Side B4.png",
+							"thumb": "/images/roomAssets/Desk/Items/Table Items Side A4 thumb.png",
+							"id": "a4b50b4f-aa3d-4787-963c-d026df2050df"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Items/Table Items Side A5.png",
+							"name": "Table Items Side A5.png",
+							"reverse": "/images/roomAssets/Desk/Items/Table Items Side B5.png",
+							"thumb": "/images/roomAssets/Desk/Items/Table Items Side A5 thumb.png",
+							"id": "a397ffa8-e1f3-4ce2-a47d-74ee2d918a18"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Items/Table Items Side A6.png",
+							"name": "Table Items Side A6.png",
+							"reverse": "/images/roomAssets/Desk/Items/Table Items Side B6.png",
+							"thumb": "/images/roomAssets/Desk/Items/Table Items Side A6 thumb.png",
+							"id": "682cbef2-339b-4488-943c-3e88bf19ab7a"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Items/Table Items Side A7.png",
+							"name": "Table Items Side A7.png",
+							"reverse": "/images/roomAssets/Desk/Items/Table Items Side B7.png",
+							"thumb": "/images/roomAssets/Desk/Items/Table Items Side A7 thumb.png",
+							"id": "5f13c0cf-78f9-4104-a762-757a41e0adf2"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Desk/Mirror",
+					"name": "Mirror",
+					"slot": "deskMirror",
+					"children": [
+						{
+							"path": "/images/roomAssets/Desk/Mirror/Big",
+							"name": "Big",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A1.png",
+									"name": "Big Mirror Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A2.png",
+									"name": "Big Mirror Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A3.png",
+									"name": "Big Mirror Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A4.png",
+									"name": "Big Mirror Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A5.png",
+									"name": "Big Mirror Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A6.png",
+									"name": "Big Mirror Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A7.png",
+									"name": "Big Mirror Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Big/Big Mirror Side A7 thumb.png"
+								}
+							],
+							"id": "7e015377-d906-4108-9324-4b60013310d8"
+						},
+						{
+							"path": "/images/roomAssets/Desk/Mirror/Small",
+							"name": "Small",
+							"children": [
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A1.png",
+									"name": "Small Mirror Side A1.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side B1.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A2.png",
+									"name": "Small Mirror Side A2.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side B2.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A3.png",
+									"name": "Small Mirror Side A3.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side B3.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A4.png",
+									"name": "Small Mirror Side A4.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side B4.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A5.png",
+									"name": "Small Mirror Side A5.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side B5.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A6.png",
+									"name": "Small Mirror Side A6.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side B6.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A7.png",
+									"name": "Small Mirror Side A7.png",
+									"reverse": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side B7.png",
+									"thumb": "/images/roomAssets/Desk/Mirror/Small/Small Mirror Side A7 thumb.png"
+								}
+							],
+							"id": "45edf47c-121c-4999-bb3d-f67e1b4062da"
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "/images/roomAssets/Floor",
+			"name": "Floor",
+			"children": [
+				{
+					"path": "/images/roomAssets/Floor/Floor Color",
+					"name": "Floor Color",
+					"slot": "floorColor",
+					"children": [
+						{
+							"path": "/images/roomAssets/Floor/Floor Color/Floor1.png",
+							"name": "Floor1.png",
+							"reverse": "/images/roomAssets/Floor/Floor Color/Floor1.png",
+							"thumb": "/images/roomAssets/Floor/Floor Color/Floor1 thumb.png",
+							"id": "7878b6bf-ccf1-4249-a448-9b30ea822f7f"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Floor Color/Floor2.png",
+							"name": "Floor2.png",
+							"reverse": "/images/roomAssets/Floor/Floor Color/Floor2.png",
+							"thumb": "/images/roomAssets/Floor/Floor Color/Floor2 thumb.png",
+							"id": "489e37cc-94bf-4bc4-a319-0ad000a5cb95"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Floor Color/Floor3.png",
+							"name": "Floor3.png",
+							"reverse": "/images/roomAssets/Floor/Floor Color/Floor3.png",
+							"thumb": "/images/roomAssets/Floor/Floor Color/Floor3 thumb.png",
+							"id": "570ac866-5544-4191-ab19-28cd5332e330"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Floor Color/Floor4.png",
+							"name": "Floor4.png",
+							"reverse": "/images/roomAssets/Floor/Floor Color/Floor4.png",
+							"thumb": "/images/roomAssets/Floor/Floor Color/Floor4 thumb.png",
+							"id": "80bb0b6b-f559-4aab-b870-af4ed40156ef"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Floor Color/Floor5.png",
+							"name": "Floor5.png",
+							"reverse": "/images/roomAssets/Floor/Floor Color/Floor5.png",
+							"thumb": "/images/roomAssets/Floor/Floor Color/Floor5 thumb.png",
+							"id": "47989672-df70-457f-a2f7-cd8c5e7c5095"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Floor Color/Floor6.png",
+							"name": "Floor6.png",
+							"reverse": "/images/roomAssets/Floor/Floor Color/Floor6.png",
+							"thumb": "/images/roomAssets/Floor/Floor Color/Floor6 thumb.png",
+							"id": "bfcc4155-b64a-4d26-9349-aa2e577bcd92"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Floor/Rug Color",
+					"name": "Rug Color",
+					"slot": "rugColor",
+					"children": [
+						{
+							"path": "/images/roomAssets/Floor/Rug Color/Rug1.png",
+							"name": "Rug1.png",
+							"reverse": "/images/roomAssets/Floor/Rug Color/Rug1.png",
+							"thumb": "/images/roomAssets/Floor/Rug Color/Rug1 thumb.png",
+							"id": "62689a74-c655-49ca-8bbb-87ea43c3fbc9"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Color/Rug2.png",
+							"name": "Rug2.png",
+							"reverse": "/images/roomAssets/Floor/Rug Color/Rug2.png",
+							"thumb": "/images/roomAssets/Floor/Rug Color/Rug2 thumb.png",
+							"id": "6c15cd38-c2ae-4fb3-a773-587032c8feed"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Color/Rug3.png",
+							"name": "Rug3.png",
+							"reverse": "/images/roomAssets/Floor/Rug Color/Rug3.png",
+							"thumb": "/images/roomAssets/Floor/Rug Color/Rug3 thumb.png",
+							"id": "05d009f0-4bc6-4f85-9da2-d29214b12290"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Color/Rug4.png",
+							"name": "Rug4.png",
+							"reverse": "/images/roomAssets/Floor/Rug Color/Rug4.png",
+							"thumb": "/images/roomAssets/Floor/Rug Color/Rug4 thumb.png",
+							"id": "f848b3a3-6727-4f9a-af20-9fb251780fe2"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Color/Rug5.png",
+							"name": "Rug5.png",
+							"reverse": "/images/roomAssets/Floor/Rug Color/Rug5.png",
+							"thumb": "/images/roomAssets/Floor/Rug Color/Rug5 thumb.png",
+							"id": "263f8393-5f83-43cd-989b-46ae68134a59"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Color/Rug6.png",
+							"name": "Rug6.png",
+							"reverse": "/images/roomAssets/Floor/Rug Color/Rug6.png",
+							"thumb": "/images/roomAssets/Floor/Rug Color/Rug6 thumb.png",
+							"id": "4cedb3aa-cf3c-4435-b212-48e4ef63a78c"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Color/Rug7.png",
+							"name": "Rug7.png",
+							"reverse": "/images/roomAssets/Floor/Rug Color/Rug7.png",
+							"thumb": "/images/roomAssets/Floor/Rug Color/Rug7 thumb.png",
+							"id": "2d48d1f9-9164-4068-b20a-213af9603c51"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Floor/Rug Design",
+					"name": "Rug Design",
+					"slot": "rugDesign",
+					"children": [
+						{
+							"path": "/images/roomAssets/Floor/Rug Design/Rug Design1.png",
+							"name": "Rug Design1.png",
+							"reverse": "/images/roomAssets/Floor/Rug Design/Rug Design1.png",
+							"thumb": "/images/roomAssets/Floor/Rug Design/Rug Design1 thumb.png",
+							"id": "24b92a8b-7714-4750-8033-a8179b5aa273"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Design/Rug Design2.png",
+							"name": "Rug Design2.png",
+							"reverse": "/images/roomAssets/Floor/Rug Design/Rug Design2.png",
+							"thumb": "/images/roomAssets/Floor/Rug Design/Rug Design2 thumb.png",
+							"id": "3e4ddc51-4a97-42fb-a03d-fdb276b26cf3"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Design/Rug Design3.png",
+							"name": "Rug Design3.png",
+							"reverse": "/images/roomAssets/Floor/Rug Design/Rug Design3.png",
+							"thumb": "/images/roomAssets/Floor/Rug Design/Rug Design3 thumb.png",
+							"id": "63c9f69d-1b78-4577-8d2e-631efbde5d43"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Design/Rug Design4.png",
+							"name": "Rug Design4.png",
+							"reverse": "/images/roomAssets/Floor/Rug Design/Rug Design4.png",
+							"thumb": "/images/roomAssets/Floor/Rug Design/Rug Design4 thumb.png",
+							"id": "c09ac629-1a32-405a-8a9c-39d04ca7f209"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Design/Rug Design5.png",
+							"name": "Rug Design5.png",
+							"reverse": "/images/roomAssets/Floor/Rug Design/Rug Design5.png",
+							"thumb": "/images/roomAssets/Floor/Rug Design/Rug Design5 thumb.png",
+							"id": "8dd430ac-181a-4d0c-b0ec-cfd08efcb3b0"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Design/Rug Design6.png",
+							"name": "Rug Design6.png",
+							"reverse": "/images/roomAssets/Floor/Rug Design/Rug Design6.png",
+							"thumb": "/images/roomAssets/Floor/Rug Design/Rug Design6 thumb.png",
+							"id": "20e0790f-56d4-419e-a210-852831704c94"
+						},
+						{
+							"path": "/images/roomAssets/Floor/Rug Design/Rug Design7.png",
+							"name": "Rug Design7.png",
+							"reverse": "/images/roomAssets/Floor/Rug Design/Rug Design7.png",
+							"thumb": "/images/roomAssets/Floor/Rug Design/Rug Design7 thumb.png",
+							"id": "8d00b2fb-b85b-48c3-8035-03e8607b9388"
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "/images/roomAssets/Misc",
+			"name": "Misc",
+			"children": [
+				{
+					"path": "/images/roomAssets/Misc/Big Plant",
+					"name": "Big Plant",
+					"slot": "bigPlant",
+					"children": [
+						{
+							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A1.png",
+							"name": "Big Plant Side A1.png",
+							"reverse": "/images/roomAssets/Misc/Big Plant/Big Plant Side B1.png",
+							"thumb": "/images/roomAssets/Misc/Big Plant/Big Plant Side A1 thumb.png",
+							"id": "586e3c85-1ba4-4023-827d-561c2120052f"
+						},
+						{
+							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A2.png",
+							"name": "Big Plant Side A2.png",
+							"reverse": "/images/roomAssets/Misc/Big Plant/Big Plant Side B2.png",
+							"thumb": "/images/roomAssets/Misc/Big Plant/Big Plant Side A2 thumb.png",
+							"id": "baa38bd7-7a3e-4393-93a3-4da90c50bb69"
+						},
+						{
+							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A3.png",
+							"name": "Big Plant Side A3.png",
+							"reverse": "/images/roomAssets/Misc/Big Plant/Big Plant Side B3.png",
+							"thumb": "/images/roomAssets/Misc/Big Plant/Big Plant Side A3 thumb.png",
+							"id": "59cd1b77-9152-491d-9967-d53a1025220c"
+						},
+						{
+							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A4.png",
+							"name": "Big Plant Side A4.png",
+							"reverse": "/images/roomAssets/Misc/Big Plant/Big Plant Side B4.png",
+							"thumb": "/images/roomAssets/Misc/Big Plant/Big Plant Side A4 thumb.png",
+							"id": "af7d5471-655a-492f-a940-68c756d98231"
+						},
+						{
+							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A5.png",
+							"name": "Big Plant Side A5.png",
+							"reverse": "/images/roomAssets/Misc/Big Plant/Big Plant Side B5.png",
+							"thumb": "/images/roomAssets/Misc/Big Plant/Big Plant Side A5 thumb.png",
+							"id": "bedd3d37-3cec-4495-b85b-b6b196c693b8"
+						},
+						{
+							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A6.png",
+							"name": "Big Plant Side A6.png",
+							"reverse": "/images/roomAssets/Misc/Big Plant/Big Plant Side B6.png",
+							"thumb": "/images/roomAssets/Misc/Big Plant/Big Plant Side A6 thumb.png",
+							"id": "deb9bbf7-2340-4e88-88fd-099dd34f4ebe"
+						},
+						{
+							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A7.png",
+							"name": "Big Plant Side A7.png",
+							"reverse": "/images/roomAssets/Misc/Big Plant/Big Plant Side B7.png",
+							"thumb": "/images/roomAssets/Misc/Big Plant/Big Plant Side A7 thumb.png",
+							"id": "d8981a64-4818-478e-91bc-09b699f5e1d2"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Misc/Cat Bed",
+					"name": "Cat Bed",
+					"slot": "catBed",
+					"children": [
+						{
+							"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1",
+							"name": "Cat Bed 1",
+							"children": [
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A1.png",
+									"name": "Cat bed 1 Side A1.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side B1.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A2.png",
+									"name": "Cat bed 1 Side A2.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side B2.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A3.png",
+									"name": "Cat bed 1 Side A3.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side B3.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A4.png",
+									"name": "Cat bed 1 Side A4.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side B4.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A5.png",
+									"name": "Cat bed 1 Side A5.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side B5.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A6.png",
+									"name": "Cat bed 1 Side A6.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side B6.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A7.png",
+									"name": "Cat bed 1 Side A7.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side B7.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1/Cat bed 1 Side A7 thumb.png"
+								}
+							],
+							"id": "db7e8520-1b17-4682-838f-7c4595fa256f"
+						},
+						{
+							"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2",
+							"name": "Cat Bed 2",
+							"children": [
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A1.png",
+									"name": "Cat bed 2 Side A1.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side B1.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A2.png",
+									"name": "Cat bed 2 Side A2.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side B2.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A3.png",
+									"name": "Cat bed 2 Side A3.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side B3.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A4.png",
+									"name": "Cat bed 2 Side A4.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side B4.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A5.png",
+									"name": "Cat bed 2 Side A5.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side B5.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A6.png",
+									"name": "Cat bed 2 Side A6.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side B6.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A7.png",
+									"name": "Cat bed 2 Side A7.png",
+									"reverse": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side B7.png",
+									"thumb": "/images/roomAssets/Misc/Cat Bed/Cat Bed 2/Cat bed 2 Side A7 thumb.png"
+								}
+							],
+							"id": "d180c356-f88e-4365-91e3-0bd539a06857"
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "/images/roomAssets/Shelf",
+			"name": "Shelf",
+			"slot": "shelf",
+			"children": [
+				{
+					"path": "/images/roomAssets/Shelf/Shelf 1",
+					"name": "Shelf 1",
+					"children": [
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A1.png",
+							"name": "Shelf 1 Side A1.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side B1.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A1 thumb.png",
+							"id": "057dca0e-2c29-4544-b820-aae0735a109a"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A2.png",
+							"name": "Shelf 1 Side A2.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side B2.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A2 thumb.png",
+							"id": "7eac4029-e09d-476e-b590-60e30e71603f"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A3.png",
+							"name": "Shelf 1 Side A3.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side B3.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A3 thumb.png",
+							"id": "c72b40d7-0f77-49e8-a285-4eaad7669714"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A4.png",
+							"name": "Shelf 1 Side A4.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side B4.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A4 thumb.png",
+							"id": "a9d64cfa-f5ee-4218-bf74-232055ce81d7"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A5.png",
+							"name": "Shelf 1 Side A5.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side B5.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A5 thumb.png",
+							"id": "a1c0bd25-79df-4410-a405-1f3963eb5303"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A6.png",
+							"name": "Shelf 1 Side A6.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side B6.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A6 thumb.png",
+							"id": "8f56acd9-80eb-4b87-99c6-56e0938e4fff"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A7.png",
+							"name": "Shelf 1 Side A7.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side B7.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 1/Shelf 1 Side A7 thumb.png",
+							"id": "b079b86b-2f17-4689-b4c6-c89df5ffd8eb"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Shelf/Shelf 2",
+					"name": "Shelf 2",
+					"children": [
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A1.png",
+							"name": "Shelf 2 Side A1.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side B1.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A1 thumb.png",
+							"id": "c0b06b7b-737f-4dcc-944a-4935f88e4120"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A2.png",
+							"name": "Shelf 2 Side A2.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side B2.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A2 thumb.png",
+							"id": "6f835e49-58fd-4892-be68-eb6cfa32b315"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A3.png",
+							"name": "Shelf 2 Side A3.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side B3.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A3 thumb.png",
+							"id": "57c45e4f-e580-458d-8799-7157828e7316"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A4.png",
+							"name": "Shelf 2 Side A4.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side B4.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A4 thumb.png",
+							"id": "06276df0-d6e1-4ca9-92a4-23bbd8a886fa"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A5.png",
+							"name": "Shelf 2 Side A5.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side B5.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A5 thumb.png",
+							"id": "4e8f4ec7-b9bb-4a58-a898-e109938283fa"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A6.png",
+							"name": "Shelf 2 Side A6.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side B6.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A6 thumb.png",
+							"id": "fabf7450-d044-41fb-8fd7-8cfd075c5f13"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A7.png",
+							"name": "Shelf 2 Side A7.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side B7.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 2/Shelf 2 Side A7 thumb.png",
+							"id": "6018cb99-5100-4657-a24f-550775e585eb"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Shelf/Shelf 3",
+					"name": "Shelf 3",
+					"children": [
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A1.png",
+							"name": "Shelf 3 Side A1.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side B1.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A1 thumb.png",
+							"id": "c0d367ed-3d8c-4b1b-8480-897b8b97cd91"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A2.png",
+							"name": "Shelf 3 Side A2.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side B2.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A2 thumb.png",
+							"id": "78148d85-992d-43e5-b0f5-8f0e92ba5595"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A3.png",
+							"name": "Shelf 3 Side A3.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side B3.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A3 thumb.png",
+							"id": "d64fc7a3-8127-472c-b4bf-fd4a130df7c9"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A4.png",
+							"name": "Shelf 3 Side A4.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side B4.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A4 thumb.png",
+							"id": "68870901-8c80-4365-8de9-b96ae4483969"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A5.png",
+							"name": "Shelf 3 Side A5.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side B5.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A5 thumb.png",
+							"id": "e8e95740-e8b9-417a-b1c9-bc86d1abb760"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A6.png",
+							"name": "Shelf 3 Side A6.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side B6.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A6 thumb.png",
+							"id": "e8d59f44-807f-4779-96d4-6d9095d8d751"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A7.png",
+							"name": "Shelf 3 Side A7.png",
+							"reverse": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side B7.png",
+							"thumb": "/images/roomAssets/Shelf/Shelf 3/Shelf 3 Side A7 thumb.png",
+							"id": "de7010bb-94cb-4332-94ba-1e84b57297af"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Shelf/Shelf Item",
+					"name": "Shelf Item",
+					"slot": "shelfItem",
+					"children": [
+						{
+							"path": "/images/roomAssets/Shelf/Shelf Item/Books",
+							"name": "Books",
+							"children": [
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A1.png",
+									"name": "Books 1 Side A1.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side B1.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A2.png",
+									"name": "Books 1 Side A2.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side B2.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A3.png",
+									"name": "Books 1 Side A3.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side B3.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A4.png",
+									"name": "Books 1 Side A4.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side B4.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A5.png",
+									"name": "Books 1 Side A5.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side B5.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A6.png",
+									"name": "Books 1 Side A6.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side B6.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A7.png",
+									"name": "Books 1 Side A7.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side B7.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books/Books 1 Side A7 thumb.png"
+								}
+							],
+							"id": "201917d5-a684-4f7d-b345-f14bb808f7c9"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked",
+							"name": "Books Stacked",
+							"children": [
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A1.png",
+									"name": "Books 2 Side A1.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side B1.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A2.png",
+									"name": "Books 2 Side A2.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side B2.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A3.png",
+									"name": "Books 2 Side A3.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side B3.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A4.png",
+									"name": "Books 2 Side A4.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side B4.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A5.png",
+									"name": "Books 2 Side A5.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side B5.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A6.png",
+									"name": "Books 2 Side A6.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side B6.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A7.png",
+									"name": "Books 2 Side A7.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side B7.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Books Stacked/Books 2 Side A7 thumb.png"
+								}
+							],
+							"id": "e3d6fd7d-9049-461c-95e1-c6de356b646d"
+						},
+						{
+							"path": "/images/roomAssets/Shelf/Shelf Item/Plant",
+							"name": "Plant",
+							"children": [
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A1.png",
+									"name": "Small Plant Side A1.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side B1.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A2.png",
+									"name": "Small Plant Side A2.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side B2.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A3.png",
+									"name": "Small Plant Side A3.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side B3.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A4.png",
+									"name": "Small Plant Side A4.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side B4.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A5.png",
+									"name": "Small Plant Side A5.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side B5.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A6.png",
+									"name": "Small Plant Side A6.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side B6.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A6 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A7.png",
+									"name": "Small Plant Side A7.png",
+									"reverse": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side B7.png",
+									"thumb": "/images/roomAssets/Shelf/Shelf Item/Plant/Small Plant Side A7 thumb.png"
+								}
+							],
+							"id": "6236ec55-425a-4a55-8ee3-b9c36184076e"
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "/images/roomAssets/Walls",
+			"name": "Walls",
+			"children": [
+				{
+					"path": "/images/roomAssets/Walls/Trim",
+					"name": "Trim",
+					"slot": "wallTrim",
+					"children": [
+						{
+							"path": "/images/roomAssets/Walls/Trim/Angled",
+							"name": "Angled",
+							"children": [
+								{
+									"path": "/images/roomAssets/Walls/Trim/Angled/Angled1.png",
+									"name": "Angled1.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Angled/Angled1.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Angled/Angled1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Angled/Angled2.png",
+									"name": "Angled2.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Angled/Angled2.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Angled/Angled2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Angled/Angled3.png",
+									"name": "Angled3.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Angled/Angled3.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Angled/Angled3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Angled/Angled4.png",
+									"name": "Angled4.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Angled/Angled4.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Angled/Angled4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Angled/Angled5.png",
+									"name": "Angled5.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Angled/Angled5.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Angled/Angled5 thumb.png"
+								}
+							],
+							"id": "5572c379-18fa-4613-96f0-5241a60aebed"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Trim/Curved",
+							"name": "Curved",
+							"children": [
+								{
+									"path": "/images/roomAssets/Walls/Trim/Curved/Curved1.png",
+									"name": "Curved1.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Curved/Curved1.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Curved/Curved1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Curved/Curved2.png",
+									"name": "Curved2.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Curved/Curved2.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Curved/Curved2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Curved/Curved3.png",
+									"name": "Curved3.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Curved/Curved3.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Curved/Curved3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Curved/Curved4.png",
+									"name": "Curved4.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Curved/Curved4.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Curved/Curved4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Curved/Curved5.png",
+									"name": "Curved5.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Curved/Curved5.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Curved/Curved5 thumb.png"
+								}
+							],
+							"id": "63824180-54ad-43fb-a08c-5b1c6467f891"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Trim/Lined",
+							"name": "Lined",
+							"children": [
+								{
+									"path": "/images/roomAssets/Walls/Trim/Lined/Lined1.png",
+									"name": "Lined1.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Lined/Lined1.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Lined/Lined1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Lined/Lined2.png",
+									"name": "Lined2.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Lined/Lined2.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Lined/Lined2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Lined/Lined3.png",
+									"name": "Lined3.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Lined/Lined3.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Lined/Lined3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Lined/Lined4.png",
+									"name": "Lined4.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Lined/Lined4.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Lined/Lined4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Lined/Lined5.png",
+									"name": "Lined5.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Lined/Lined5.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Lined/Lined5 thumb.png"
+								}
+							],
+							"id": "518f0253-c4e0-4eb4-9a98-fce3d068f633"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Trim/Runed",
+							"name": "Runed",
+							"children": [
+								{
+									"path": "/images/roomAssets/Walls/Trim/Runed/Runed1.png",
+									"name": "Runed1.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Runed/Runed1.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Runed/Runed1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Runed/Runed2.png",
+									"name": "Runed2.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Runed/Runed2.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Runed/Runed2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Runed/Runed3.png",
+									"name": "Runed3.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Runed/Runed3.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Runed/Runed3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Runed/Runed4.png",
+									"name": "Runed4.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Runed/Runed4.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Runed/Runed4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Runed/Runed5.png",
+									"name": "Runed5.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Runed/Runed5.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Runed/Runed5 thumb.png"
+								}
+							],
+							"id": "88710fc4-d1c7-4406-b614-51aef0c41091"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Trim/Striped",
+							"name": "Striped",
+							"children": [
+								{
+									"path": "/images/roomAssets/Walls/Trim/Striped/Striped1.png",
+									"name": "Striped1.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Striped/Striped1.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Striped/Striped1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Striped/Striped2.png",
+									"name": "Striped2.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Striped/Striped2.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Striped/Striped2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Striped/Striped3.png",
+									"name": "Striped3.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Striped/Striped3.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Striped/Striped3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Striped/Striped4.png",
+									"name": "Striped4.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Striped/Striped4.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Striped/Striped4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Trim/Striped/Striped5.png",
+									"name": "Striped5.png",
+									"reverse": "/images/roomAssets/Walls/Trim/Striped/Striped5.png",
+									"thumb": "/images/roomAssets/Walls/Trim/Striped/Striped5 thumb.png"
+								}
+							],
+							"id": "4e54efd3-9984-4277-ab21-bc4259ba4e89"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Walls/Wall Color",
+					"name": "Wall Color",
+					"slot": "wallColor",
+					"children": [
+						{
+							"path": "/images/roomAssets/Walls/Wall Color/Wall1.png",
+							"name": "Wall1.png",
+							"reverse": "/images/roomAssets/Walls/Wall Color/Wall1.png",
+							"thumb": "/images/roomAssets/Walls/Wall Color/Wall1 thumb.png",
+							"id": "23a3c016-3e74-4102-b3f6-9d5e906d3d42"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Wall Color/Wall2.png",
+							"name": "Wall2.png",
+							"reverse": "/images/roomAssets/Walls/Wall Color/Wall2.png",
+							"thumb": "/images/roomAssets/Walls/Wall Color/Wall2 thumb.png",
+							"id": "a543a417-0e30-40f8-bece-e4c9fb10bc4d"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Wall Color/Wall3.png",
+							"name": "Wall3.png",
+							"reverse": "/images/roomAssets/Walls/Wall Color/Wall3.png",
+							"thumb": "/images/roomAssets/Walls/Wall Color/Wall3 thumb.png",
+							"id": "447073d1-d132-4d98-96a6-af576f0b9e29"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Wall Color/Wall4.png",
+							"name": "Wall4.png",
+							"reverse": "/images/roomAssets/Walls/Wall Color/Wall4.png",
+							"thumb": "/images/roomAssets/Walls/Wall Color/Wall4 thumb.png",
+							"id": "4e7f075c-60e6-46fa-b1b7-77ba8484c8f4"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Wall Color/Wall5.png",
+							"name": "Wall5.png",
+							"reverse": "/images/roomAssets/Walls/Wall Color/Wall5.png",
+							"thumb": "/images/roomAssets/Walls/Wall Color/Wall5 thumb.png",
+							"id": "048b86a2-165d-4827-84a4-3fc7e215b547"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Wall Color/Wall6.png",
+							"name": "Wall6.png",
+							"reverse": "/images/roomAssets/Walls/Wall Color/Wall6.png",
+							"thumb": "/images/roomAssets/Walls/Wall Color/Wall6 thumb.png",
+							"id": "4401f6e5-0261-4829-a12c-77cd6ca3c20a"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Walls/Wallpaper",
+					"name": "Wallpaper",
+					"slot": "wallPaper",
+					"children": [
+						{
+							"path": "/images/roomAssets/Walls/Wallpaper/Black",
+							"name": "Black",
+							"children": [
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black1.png",
+									"name": "Wall design black1.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black1.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black2.png",
+									"name": "Wall design black2.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black2.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black3.png",
+									"name": "Wall design black3.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black3.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black4.png",
+									"name": "Wall design black4.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black4.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black5.png",
+									"name": "Wall design black5.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black5.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/Black/Wall design black5 thumb.png"
+								}
+							],
+							"id": "44d5a6d4-75c0-4530-b1e5-b78c3329da3c"
+						},
+						{
+							"path": "/images/roomAssets/Walls/Wallpaper/White",
+							"name": "White",
+							"children": [
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/White/Wall design white1.png",
+									"name": "Wall design white1.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/White/Wall design white1.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/White/Wall design white1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/White/Wall design white2.png",
+									"name": "Wall design white2.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/White/Wall design white2.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/White/Wall design white2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/White/Wall design white3.png",
+									"name": "Wall design white3.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/White/Wall design white3.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/White/Wall design white3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/White/Wall design white4.png",
+									"name": "Wall design white4.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/White/Wall design white4.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/White/Wall design white4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Walls/Wallpaper/White/Wall design white5.png",
+									"name": "Wall design white5.png",
+									"reverse": "/images/roomAssets/Walls/Wallpaper/White/Wall design white5.png",
+									"thumb": "/images/roomAssets/Walls/Wallpaper/White/Wall design white5 thumb.png"
+								}
+							],
+							"id": "b1c613dd-5c0d-4eb1-8daf-6201d365355f"
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "/images/roomAssets/Window",
+			"name": "Window",
+			"children": [
+				{
+					"path": "/images/roomAssets/Window/Curtains",
+					"name": "Curtains",
+					"slot": "windowCurtains",
+					"children": [
+						{
+							"path": "/images/roomAssets/Window/Curtains/Curtain Side A1.png",
+							"name": "Curtain Side A1.png",
+							"reverse": "/images/roomAssets/Window/Curtains/Curtain Side B1.png",
+							"thumb": "/images/roomAssets/Window/Curtains/Curtain Side A1 thumb.png",
+							"id": "9255b437-50fa-466c-8cac-1a662eb0afef"
+						},
+						{
+							"path": "/images/roomAssets/Window/Curtains/Curtain Side A2.png",
+							"name": "Curtain Side A2.png",
+							"reverse": "/images/roomAssets/Window/Curtains/Curtain Side B2.png",
+							"thumb": "/images/roomAssets/Window/Curtains/Curtain Side A2 thumb.png",
+							"id": "ca2527c5-8637-4a08-85df-77b6801359f4"
+						},
+						{
+							"path": "/images/roomAssets/Window/Curtains/Curtain Side A3.png",
+							"name": "Curtain Side A3.png",
+							"reverse": "/images/roomAssets/Window/Curtains/Curtain Side B3.png",
+							"thumb": "/images/roomAssets/Window/Curtains/Curtain Side A3 thumb.png",
+							"id": "68af661d-f908-4b3b-a7d3-d15a3f5490bc"
+						},
+						{
+							"path": "/images/roomAssets/Window/Curtains/Curtain Side A4.png",
+							"name": "Curtain Side A4.png",
+							"reverse": "/images/roomAssets/Window/Curtains/Curtain Side B4.png",
+							"thumb": "/images/roomAssets/Window/Curtains/Curtain Side A4 thumb.png",
+							"id": "c143d951-78ee-4e11-898c-f1d4f8a8f2b0"
+						},
+						{
+							"path": "/images/roomAssets/Window/Curtains/Curtain Side A5.png",
+							"name": "Curtain Side A5.png",
+							"reverse": "/images/roomAssets/Window/Curtains/Curtain Side B5.png",
+							"thumb": "/images/roomAssets/Window/Curtains/Curtain Side A5 thumb.png",
+							"id": "54307293-6ce2-4f89-a8e1-2c9c996f69dc"
+						},
+						{
+							"path": "/images/roomAssets/Window/Curtains/Curtain Side A6.png",
+							"name": "Curtain Side A6.png",
+							"reverse": "/images/roomAssets/Window/Curtains/Curtain Side B6.png",
+							"thumb": "/images/roomAssets/Window/Curtains/Curtain Side A6 thumb.png",
+							"id": "12ebc47c-f34a-4556-817d-0fbba4f4f5d9"
+						}
+					]
+				},
+				{
+					"path": "/images/roomAssets/Window/Type",
+					"name": "Type",
+					"slot": "windowType",
+					"children": [
+						{
+							"path": "/images/roomAssets/Window/Type/1 Pane",
+							"name": "1 Pane",
+							"children": [
+								{
+									"path": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A1.png",
+									"name": "Window 2 Side A1.png",
+									"reverse": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side B1.png",
+									"thumb": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A2.png",
+									"name": "Window 2 Side A2.png",
+									"reverse": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side B2.png",
+									"thumb": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A3.png",
+									"name": "Window 2 Side A3.png",
+									"reverse": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side B3.png",
+									"thumb": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A4.png",
+									"name": "Window 2 Side A4.png",
+									"reverse": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side B4.png",
+									"thumb": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A5.png",
+									"name": "Window 2 Side A5.png",
+									"reverse": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side B5.png",
+									"thumb": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A6.png",
+									"name": "Window 2 Side A6.png",
+									"reverse": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side B6.png",
+									"thumb": "/images/roomAssets/Window/Type/1 Pane/Window 2 Side A6 thumb.png"
+								}
+							],
+							"id": "37f33303-9d97-4bf3-b3e7-de97d7d02df6"
+						},
+						{
+							"path": "/images/roomAssets/Window/Type/2 Pane",
+							"name": "2 Pane",
+							"children": [
+								{
+									"path": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A1.png",
+									"name": "Window 1 Side A1.png",
+									"reverse": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side B1.png",
+									"thumb": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A2.png",
+									"name": "Window 1 Side A2.png",
+									"reverse": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side B2.png",
+									"thumb": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A3.png",
+									"name": "Window 1 Side A3.png",
+									"reverse": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side B3.png",
+									"thumb": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A4.png",
+									"name": "Window 1 Side A4.png",
+									"reverse": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side B4.png",
+									"thumb": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A5.png",
+									"name": "Window 1 Side A5.png",
+									"reverse": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side B5.png",
+									"thumb": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A6.png",
+									"name": "Window 1 Side A6.png",
+									"reverse": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side B6.png",
+									"thumb": "/images/roomAssets/Window/Type/2 Pane/Window 1 Side A6 thumb.png"
+								}
+							],
+							"id": "999e7832-14e7-446c-98f4-235e772d6762"
+						},
+						{
+							"path": "/images/roomAssets/Window/Type/4 Pane",
+							"name": "4 Pane",
+							"children": [
+								{
+									"path": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A1.png",
+									"name": "Window 3 Side A1.png",
+									"reverse": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side B1.png",
+									"thumb": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A1 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A2.png",
+									"name": "Window 3 Side A2.png",
+									"reverse": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side B2.png",
+									"thumb": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A2 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A3.png",
+									"name": "Window 3 Side A3.png",
+									"reverse": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side B3.png",
+									"thumb": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A3 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A4.png",
+									"name": "Window 3 Side A4.png",
+									"reverse": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side B4.png",
+									"thumb": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A4 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A5.png",
+									"name": "Window 3 Side A5.png",
+									"reverse": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side B5.png",
+									"thumb": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A5 thumb.png"
+								},
+								{
+									"path": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A6.png",
+									"name": "Window 3 Side A6.png",
+									"reverse": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side B6.png",
+									"thumb": "/images/roomAssets/Window/Type/4 Pane/Window 3 Side A6 thumb.png"
+								}
+							],
+							"id": "d978a5df-80ed-4e68-ba86-e772ddee815e"
+						}
+					]
+				}
+			]
+		}
+	]
+}

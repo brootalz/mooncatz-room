@@ -10,6 +10,7 @@
 					"path": "/images/roomAssets/Art/Picture Frame",
 					"name": "Picture Frame",
 					"slot": "pictureFrame",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Art/Picture Frame/Picture Frame Side A1.png",
@@ -59,6 +60,7 @@
 					"path": "/images/roomAssets/Art/Poster",
 					"name": "Poster",
 					"slot": "poster",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Art/Poster/Poster Side A1.png",
@@ -121,6 +123,7 @@
 					"path": "/images/roomAssets/Bed/Frame",
 					"name": "Frame",
 					"slot": "bedFrame",
+					"default": "/images/roomAssets/Base Bed.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Bed/Frame/Bed Frame Side A1.png",
@@ -177,6 +180,7 @@
 					"path": "/images/roomAssets/Bed/Design",
 					"name": "Design",
 					"slot": "bedDesign",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Bed/Design/Bed Frame Design Side A1.png",
@@ -233,6 +237,7 @@
 					"path": "/images/roomAssets/Bed/Pillow",
 					"name": "Pillow",
 					"slot": "bedPillow",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Bed/Pillow/Double",
@@ -338,6 +343,7 @@
 					"path": "/images/roomAssets/Bed/Sheet",
 					"name": "Sheet",
 					"slot": "bedSheet",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Bed/Sheet/Bed Sheet Side A1.png",
@@ -400,6 +406,7 @@
 					"path": "/images/roomAssets/Desk/Desk",
 					"name": "Desk",
 					"slot": "deskType",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Desk/Desk/Desk 1",
@@ -554,6 +561,7 @@
 					"path": "/images/roomAssets/Desk/Chair",
 					"name": "Chair",
 					"slot": "deskChair",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Desk/Chair/Chair 1",
@@ -708,6 +716,7 @@
 					"path": "/images/roomAssets/Desk/Items",
 					"name": "Items",
 					"slot": "deskItem",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Desk/Items/Table Items Side A1.png",
@@ -764,6 +773,7 @@
 					"path": "/images/roomAssets/Desk/Mirror",
 					"name": "Mirror",
 					"slot": "deskMirror",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Desk/Mirror/Big",
@@ -875,6 +885,7 @@
 					"path": "/images/roomAssets/Floor/Floor Color",
 					"name": "Floor Color",
 					"slot": "floorColor",
+					"default": "/images/roomAssets/Base Floor.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Floor/Floor Color/Floor1.png",
@@ -924,6 +935,7 @@
 					"path": "/images/roomAssets/Floor/Rug Color",
 					"name": "Rug Color",
 					"slot": "rugColor",
+					"default": "/images/roomAssets/Base Rug.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Floor/Rug Color/Rug1.png",
@@ -980,6 +992,7 @@
 					"path": "/images/roomAssets/Floor/Rug Design",
 					"name": "Rug Design",
 					"slot": "rugDesign",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Floor/Rug Design/Rug Design1.png",
@@ -1042,6 +1055,7 @@
 					"path": "/images/roomAssets/Misc/Big Plant",
 					"name": "Big Plant",
 					"slot": "bigPlant",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Misc/Big Plant/Big Plant Side A1.png",
@@ -1098,6 +1112,7 @@
 					"path": "/images/roomAssets/Misc/Cat Bed",
 					"name": "Cat Bed",
 					"slot": "catBed",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Misc/Cat Bed/Cat Bed 1",
@@ -1205,6 +1220,7 @@
 			"path": "/images/roomAssets/Shelf",
 			"name": "Shelf",
 			"slot": "shelf",
+			"default": "/images/roomAssets/blank.png",
 			"children": [
 				{
 					"path": "/images/roomAssets/Shelf/Shelf 1",
@@ -1375,6 +1391,7 @@
 					"path": "/images/roomAssets/Shelf/Shelf Item",
 					"name": "Shelf Item",
 					"slot": "shelfItem",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Shelf/Shelf Item/Books",
@@ -1535,6 +1552,7 @@
 					"path": "/images/roomAssets/Walls/Trim",
 					"name": "Trim",
 					"slot": "wallTrim",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Walls/Trim/Angled",
@@ -1727,6 +1745,7 @@
 					"path": "/images/roomAssets/Walls/Wall Color",
 					"name": "Wall Color",
 					"slot": "wallColor",
+					"default": "/images/roomAssets/Base Wall.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Walls/Wall Color/Wall1.png",
@@ -1776,6 +1795,7 @@
 					"path": "/images/roomAssets/Walls/Wallpaper",
 					"name": "Wallpaper",
 					"slot": "wallPaper",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Walls/Wallpaper/Black",
@@ -1863,6 +1883,7 @@
 					"path": "/images/roomAssets/Window/Curtains",
 					"name": "Curtains",
 					"slot": "windowCurtains",
+					"default": "/images/roomAssets/blank.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Window/Curtains/Curtain Side A1.png",
@@ -1912,6 +1933,7 @@
 					"path": "/images/roomAssets/Window/Type",
 					"name": "Type",
 					"slot": "windowType",
+					"default": "/images/roomAssets/Base Window.png",
 					"children": [
 						{
 							"path": "/images/roomAssets/Window/Type/1 Pane",

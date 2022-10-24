@@ -3,15 +3,20 @@ import RoomAssets from "../pages/api/roomAssets.json";
 
 const Menu = () => {
   // TODO: Hook up tooltip for button hovers
-  console.log("Menu() got called again?");
+  console.log("Menu State Change.");
 
   const [menuCoords, setMenuCoords] = useState([]);
+  const imgRoot = "https://mooncatz-full-body-cats.s3.eu-west-2.amazonaws.com/";
   // make current menu category JSON a state?
   let curDir = RoomAssets;
 
   // lame.
   const curSlot = "";
   const curCatID = 0;
+
+  const getImg = (path) => {
+    return (imgRoot + path.substring(path.lastIndexOf("/")+1));
+  }
 
   const genMenu = () => {
     let curItems = RoomAssets;
@@ -80,13 +85,16 @@ const Menu = () => {
     const itemData = getItemData(menuCoords, curCatID);
     let layer = document.getElementById(curSlot);
     console.log("isreversed? -> " + layer.dataset.isreversed);
+    // layer.src = layer.dataset.isreversed == "true" ? itemData.reverse : itemData.path;
     layer.src = layer.dataset.isreversed == "true" ? itemData.reverse : itemData.path;
+    // console.log(getImg(itemData.path));
     layer.dataset.assetnormal = itemData.path;
     layer.dataset.assetreverse = itemData.reverse;
   }
 
   const handleRotateClick = (e) => {
     const itemData = getItemData(menuCoords, curCatID);
+    // ^ doesn't account for other wall's item's itemData!!!!!
     console.log(curSlot);
     switch (curSlot) {
       case "bedBase":
@@ -94,14 +102,32 @@ const Menu = () => {
       case "bedDesign":
       case "bedPillow":
       case "bedSheet":
-        flipBed(itemData);
+        // flipBed(itemData);
+        flipItem(itemData);
         break;
       case "deskBase":
       case "deskType":
       case "deskChair":
       case "deskMirror":
       case "deskItem":
+      case "bigPlant":
+      case "catBed":
         flipDesk(itemData);
+        flipCatBed(itemData);
+        flipPlant(itemData);
+        break;
+      case "windowType":
+      case "windowCurtains":
+      case "poster":
+        // flipWindow(itemData);
+        // flipPoster(itemData);
+        flipItem(itemData);
+        break;
+      case "shelf":
+      case "shelfItem":
+      case "pictureFrame":
+        flipShelf(itemData);
+        flipPictureFrame(itemData);
         break;
       default:
         console.log("no slot found");
@@ -114,6 +140,39 @@ const Menu = () => {
 
   const handleBuyClick = (e) => {
 
+  }
+
+  const flipItem = (itemData) => {
+    console.log("flip ANYTHING!");
+    console.log(itemData);
+    const base = document.getElementById(curSlot);
+    console.log(base);
+    const subLayers = base.childNodes.length ? base.childNodes : [];
+    console.log(subLayers);
+    base.childNodes.forEach(function (sl) {
+      console.log(sl.firstChild);
+    });
+
+    // base.childNodes.forEach( function (l) {
+    //   console.log(l.firstChild);
+    // });
+    // console.log(subLayers.length);
+
+    // if (base.dataset.isreversed == "false") {
+    //   base.dataset.isreversed = "true";
+    //   subLayers.forEach(function (l) {
+    //     console.log(l);
+    //     l.src = l.dataset.assetreverse;
+    //     l.dataset.isreversed = "true";
+    //   });
+    // } else {
+    //   base.dataset.isreversed = "false";
+    //   subLayers.forEach(function (l) {
+    //     console.log(l);
+    //     l.src = l.dataset.assetnormal;
+    //     l.dataset.isreversed = "false";
+    //   });
+    // };
   }
 
   const flipBed = (itemData) => {
@@ -150,6 +209,104 @@ const Menu = () => {
       document.getElementById("deskChair"),
       document.getElementById("deskMirror"),
       document.getElementById("deskItem")
+    ];
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetreverse;
+        l.dataset.isreversed = "true";
+      });
+    } else {
+      base.dataset.isreversed = "false";
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetnormal;
+        l.dataset.isreversed = "false";
+      });
+    };
+  }
+
+  const flipPoster = (itemData) => {
+    console.log("flip poster!");
+    console.log(itemData);
+    const base = document.getElementById("poster");
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
+      base.src = base.dataset.assetreverse;
+    } else {
+      base.dataset.isreversed = "false";
+      base.src = base.dataset.assetnormal;
+    };
+  }
+
+  const flipPlant = (itemData) => {
+    console.log("flip plant!");
+    console.log(itemData);
+    const base = document.getElementById("bigPlant");
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
+      base.src = base.dataset.assetreverse;
+    } else {
+      base.dataset.isreversed = "false";
+      base.src = base.dataset.assetnormal;
+    };
+  }
+
+  const flipCatBed = (itemData) => {
+    console.log("flip cat bed!");
+    console.log(itemData);
+    const base = document.getElementById("catBed");
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
+      base.src = base.dataset.assetreverse;
+    } else {
+      base.dataset.isreversed = "false";
+      base.src = base.dataset.assetnormal;
+    };
+  }
+
+  const flipPictureFrame = (itemData) => {
+    console.log("flip picture frame!");
+    console.log(itemData);
+    const base = document.getElementById("pictureFrame");
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
+      base.src = base.dataset.assetreverse;
+    } else {
+      base.dataset.isreversed = "false";
+      base.src = base.dataset.assetnormal;
+    };
+  }
+
+  const flipWindow = (itemData) => {
+    console.log("flip window!");
+    console.log(itemData);
+    const base = document.getElementById("windowBase");
+    const subLayers = [
+      document.getElementById("windowType"),
+      document.getElementById("windowCurtains"),
+    ];
+    if (base.dataset.isreversed == "false") {
+      base.dataset.isreversed = "true";
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetreverse;
+        l.dataset.isreversed = "true";
+      });
+    } else {
+      base.dataset.isreversed = "false";
+      subLayers.forEach(function (l) {
+        l.src = l.dataset.assetnormal;
+        l.dataset.isreversed = "false";
+      });
+    };
+  }
+
+  const flipShelf = (itemData) => {
+    console.log("flip shelf!");
+    console.log(itemData);
+    const base = document.getElementById("shelfBase");
+    const subLayers = [
+      document.getElementById("shelf"),
+      document.getElementById("shelfItem"),
     ];
     if (base.dataset.isreversed == "false") {
       base.dataset.isreversed = "true";

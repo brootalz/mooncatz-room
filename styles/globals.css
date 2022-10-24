@@ -15,7 +15,7 @@ body {
   color: #fff;
   max-height: 100vh;
   overflow: hidden;
-  background-image: url("/images/head_bg.png");
+  background-image: url("/images/head_bg.gif");
   background-repeat: repeat-x;
 }
 
